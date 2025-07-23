@@ -1,0 +1,207 @@
+{
+  "Navigation": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "A Propos",
+    "contact": "Contact",
+    "button": "Consultez-nous"
+  },
+  "Footer": {
+    "title": "Malaika Services",
+    "description": "Malaika Services est une entreprise dédiée à fournir des solutions comptables, fiscales et administratives de qualité aux particuliers et aux entreprises.",
+    "contact_us": "Contactez-nous",
+    "send_us_a_message": "Laissez-nous un message",
+    "address": "Notre adresse",
+    "quick_links": {
+      "title": "Liens Rapides",
+      "about": "A Propos",
+      "services": "Services",
+      "projects": "Projets",
+      "price": "Tarifs",
+      "careers": "Contact"
+    },
+    "legalLinks": {
+      "title": "Liens legaux",
+      "TandCs": "Termes et Conditions",
+      "privacy": "Politique de Confidentialite",
+      "support": "Support",
+      "refund": "Politique de Remboursement",
+      "disclaimer": "Avertissements",
+      "faq": "FAQ"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Restez informé de nos dernières actualités et offres. Abonnez-vous dès maintenant à notre newsletter !",
+      "button": "S'abonner"
+    },
+    "copyright": "Malaika Services © 2023. Tous droits r&eacute;serv&eacute;s."
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Malaika Services -",
+      "title_description_1": " Plus qu'une strategie,",
+      "title_description_2": "une Solution",
+      "subtitle": "Des espaces, des talents, des opportunites sous le meme toit.",
+      "button_1": "Commencer",
+      "button_2": "En Savoir Plus"
+    },
+    "welcome_to_malaika": {
+      "title": "Bienvenue sur Malaika Services",
+      "subtitle": "Votre partenaire stratégique pour la croissance",
+      "description": "Chez Malaika Services, nous proposons une gamme complète de services professionnels destinés à soutenir les entreprises dans leur développement, leur conformité fiscale, leur gestion administrative et leur optimisation financière.",
+      "list_1": [
+        "Expertise comptable adaptée à chaque secteur",
+        "Conseils fiscaux personnalisés",
+        "Support administratif et gestion de la paie"
+      ],
+      "list_2": [
+        "Solutions flexibles et innovantes",
+        "Accompagnement sur mesure",
+        "Professionnels expérimentés à votre écoute"
+      ],
+      "metrics": {
+        "metric_1": "Clients satisfaits",
+        "metric_2": "Annees d'experience",
+        "metric_3": "Projets realises",
+        "metric_4": "Professionnels qualifies"
+      }
+    },
+    "services": {
+      "title": "Nos Services",
+      "subtitle": "Quels services offrons-nous",
+      "description": "Nous accompagnons les entreprises et les particuliers dans leurs besoins fiscaux, comptables, salariaux et administratifs avec des solutions pratiques et efficaces.",
+      "button": "Voir Plus de Services"
+    },
+    "case_studies": {
+      "title": "Nos Projets",
+      "subtitle": "Observons nos réalisations",
+      "description": "Découvrez comment nous avons aidé des entreprises à améliorer leur gestion financière, à optimiser leurs ressources humaines et à respecter les obligations légales.",
+      "case_1": {
+        "title": "Optimisation fiscale pour une PME locale",
+        "description": "Mise en place d'une stratégie fiscale adaptée ayant permis de réduire de 15% les charges annuelles de l'entreprise.",
+        "button": "Lire Plus"
+      },
+      "case_2": {
+        "title": "Gestion de la paie externalisée pour une startup",
+        "description": "Nous avons aidé une jeune entreprise à automatiser la gestion de ses salaires et déclarations sociales en toute conformité.",
+        "button": "Lire Plus"
+      },
+      "case_3": {
+        "title": "Audit comptable pour une ONG internationale",
+        "description": "Un audit rigoureux ayant renforcé la transparence financière et la crédibilité auprès des bailleurs de fonds.",
+        "button": "Lire Plus"
+      }
+    },
+    "clients_feedback": {
+      "title": "Commentaires des clients",
+      "subtitle": "Les Avis de nos Clients",
+      "description": "Nos clients témoignent de leur satisfaction à travailler avec Malaika Services et des résultats obtenus grâce à notre expertise.",
+      "client_1": {
+        "name": "Jordy Tshibangu",
+        "position": "Software Engineer",
+        "feedback": "Malaika nous a permis de simplifier la gestion de notre comptabilité tout en assurant une conformité parfaite avec les exigences locales."
+      },
+      "client_2": {
+        "name": "David Kasongo",
+        "position": "Entrepreneur",
+        "feedback": "Service fiable, réactif et à l'écoute. Grâce à eux, je peux me concentrer sur mon activité sans me soucier des aspects fiscaux."
+      }
+    },
+    "get_in_touch": {
+      "title": "Entrez en Contact",
+      "subtitle": "Vous hésitez encore sur nos fonctionnalités ?",
+      "subtitle_description": "Demandez une consultation.",
+      "description": "Vous avez des questions ou souhaitez en savoir plus sur nos services ? Contactez-nous dès aujourd’hui pour discuter de vos besoins et obtenir un accompagnement personnalisé.",
+      "button": "Demander une consultation"
+    }
+  },
+  "Services": {
+    "title": "Nos Services",
+    "services": {
+      "service_1": {
+        "title": "Taxes Personnelles",
+        "description": "Conseils personnalisés et accompagnement dans la déclaration, l'optimisation et le paiement de vos impôts personnels.",
+        "button": "Lire Plus"
+      },
+      "service_2": {
+        "title": "Taxes Professionnelles",
+        "description": "Gestion complète de la fiscalité professionnelle, de la planification à la conformité avec la législation en vigueur.",
+        "button": "Lire Plus"
+      },
+      "service_3": {
+        "title": "Comptabilite",
+        "description": "Tenue comptable, bilans, audits internes – nous assurons une gestion rigoureuse de votre comptabilité.",
+        "button": "Lire Plus"
+      },
+      "service_4": {
+        "title": "Payroll & Salaires",
+        "description": "Solutions de gestion des salaires, bulletins de paie, déclarations sociales et RH adaptées à vos besoins.",
+        "button": "Lire Plus"
+      },
+      "service_5": {
+        "title": "Outsourcing",
+        "description": "Externalisez vos fonctions non stratégiques pour vous concentrer sur votre cœur de métier en toute sérénité.",
+        "button": "Lire Plus"
+      },
+      "service_6": {
+        "title": "Audit & Assurance",
+        "description": "Réalisation d’audits financiers et opérationnels pour garantir la transparence, la conformité et la performance.",
+        "button": "Lire Plus"
+      }
+    },
+    "why_malaika": {
+      "title": "Pourquoi Malaika Services?",
+      "why_1": "Clients Satisfied",
+      "why_2": "Taux de recommandation",
+      "why_3": "Annee d'experiences",
+      "why_4": "Meilleurs offres"
+    },
+    "tools": {
+      "title": "Nos Outils",
+      "tool_1": {
+        "title": "Taxes Personnelles",
+        "description": "Accédez à un outil dédié à la gestion et à la déclaration simplifiée de vos impôts personnels en ligne.",
+        "button": "Essayer"
+      },
+      "tool_2": {
+        "title": "Taxes Professionnelles",
+        "description": "Plateforme intuitive pour suivre vos obligations fiscales professionnelles et automatiser les déclarations.",
+        "button": "Essayer"
+      }
+    }
+  },
+  "About": {
+    "title": "A Propos de Nous",
+    "description_1": "Malaika Services est née de la volonté de rendre accessibles des services professionnels de qualité à toutes les entreprises, quelle que soit leur taille.",
+    "description_2": "Notre équipe est composée d’experts passionnés, prêts à vous accompagner avec rigueur et transparence dans tous vos projets de développement.",
+    "our_team": {
+      "title": "Notre Equipe"
+    },
+    "why_choose_us": {
+      "title": "Pourquoi choisir Malaika Services?",
+      "reason_1": "Accompagnement personnalisé à chaque étape",
+      "reason_2": "Transparence et éthique professionnelle",
+      "reason_3": "Solutions digitales simples et efficaces",
+      "reason_4": "Équipe expérimentée et pluridisciplinaire",
+      "reason_5": "Tarifs compétitifs et adaptés à vos besoins",
+      "reason_6": "Satisfaction client au cœur de nos priorités"
+    }
+  },
+  "Contact": {
+    "title": "Contactez-nous",
+    "message": "Laissez-nous un message",
+    "form": {
+      "name": "Votre Nom...",
+      "email": "Votre Email...",
+      "subject": "Sujet...",
+      "message": "Votre Message...",
+      "submit": "Envoyer",
+      "submitting": "Envoi en cours...",
+      "success": "Message envoyé avec successe!",
+      "error": "Une erreur s'est produite lors de l'envoi du message."
+    },
+    "location": "Retrouvez-nous",
+    "phone": "Contactez-nous",
+    "legal_information": "Informations legaless"
+  }
+}

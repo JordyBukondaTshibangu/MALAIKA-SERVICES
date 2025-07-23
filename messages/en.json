@@ -1,0 +1,207 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "button": "Consult Us"
+  },
+  "Footer": {
+    "title": "Malaika Services",
+    "description": "Malaika Services is a company dedicated to providing high-quality accounting, tax, and administrative solutions to individuals and businesses.",
+    "contact_us": "Contact Us",
+    "send_us_a_message": "Send us a message",
+    "address": "Our Address",
+    "quick_links": {
+      "title": "Quick Links",
+      "about": "About",
+      "services": "Services",
+      "projects": "Projects",
+      "price": "Pricing",
+      "careers": "Contact"
+    },
+    "legalLinks": {
+      "title": "Legal Links",
+      "TandCs": "Terms and Conditions",
+      "privacy": "Privacy Policy",
+      "support": "Support",
+      "refund": "Refund Policy",
+      "disclaimer": "Disclaimers",
+      "faq": "FAQ"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Stay informed about our latest news and offers. Subscribe now to our newsletter!",
+      "button": "Subscribe"
+    },
+    "copyright": "Malaika Services © 2023. All rights reserved."
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Malaika Services -",
+      "title_description_1": " More than a strategy,",
+      "title_description_2": "a Solution",
+      "subtitle": "Spaces, talents, and opportunities under one roof.",
+      "button_1": "Get Started",
+      "button_2": "Learn More"
+    },
+    "welcome_to_malaika": {
+      "title": "Welcome to Malaika Services",
+      "subtitle": "Your strategic partner for growth",
+      "description": "At Malaika Services, we offer a complete range of professional services designed to support businesses in their development, tax compliance, administrative management, and financial optimization.",
+      "list_1": [
+        "Accounting expertise tailored to every sector",
+        "Personalized tax advice",
+        "Administrative support and payroll management"
+      ],
+      "list_2": [
+        "Flexible and innovative solutions",
+        "Tailored support",
+        "Experienced professionals at your service"
+      ],
+      "metrics": {
+        "metric_1": "Satisfied Clients",
+        "metric_2": "Years of Experience",
+        "metric_3": "Projects Completed",
+        "metric_4": "Qualified Professionals"
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "What Services Do We Offer?",
+      "description": "We support businesses and individuals with their tax, accounting, payroll, and administrative needs through practical and effective solutions.",
+      "button": "See More Services"
+    },
+    "case_studies": {
+      "title": "Our Projects",
+      "subtitle": "Let’s explore our work",
+      "description": "Discover how we've helped businesses improve their financial management, optimize HR processes, and stay legally compliant.",
+      "case_1": {
+        "title": "Tax Optimization for a Local SME",
+        "description": "Implemented a tailored tax strategy that helped reduce the company’s annual expenses by 15%.",
+        "button": "Read More"
+      },
+      "case_2": {
+        "title": "Outsourced Payroll Management for a Startup",
+        "description": "We helped a young startup automate its salary management and social declarations in full compliance.",
+        "button": "Read More"
+      },
+      "case_3": {
+        "title": "Financial Audit for an International NGO",
+        "description": "A rigorous audit that strengthened financial transparency and credibility with donors.",
+        "button": "Read More"
+      }
+    },
+    "clients_feedback": {
+      "title": "Client Feedback",
+      "subtitle": "What Our Clients Say",
+      "description": "Our clients share their satisfaction in working with Malaika Services and the results achieved through our expertise.",
+      "client_1": {
+        "name": "Jordy Tshibangu",
+        "position": "Software Engineer",
+        "feedback": "Malaika helped us simplify our accounting management while ensuring perfect compliance with local requirements."
+      },
+      "client_2": {
+        "name": "David Kasongo",
+        "position": "Entrepreneur",
+        "feedback": "Reliable, responsive service with a personal touch. Thanks to them, I can focus on my business without worrying about tax matters."
+      }
+    },
+    "get_in_touch": {
+      "title": "Get In Touch",
+      "subtitle": "Still unsure about our features?",
+      "subtitle_description": "Request a consultation.",
+      "description": "Have questions or want to learn more about our services? Contact us today to discuss your needs and get personalized support.",
+      "button": "Request a Consultation"
+    }
+  },
+  "Services": {
+    "title": "Our Services",
+    "services": {
+      "service_1": {
+        "title": "Personal Taxes",
+        "description": "Personalized advice and support for the declaration, optimization, and payment of your personal taxes.",
+        "button": "Read More"
+      },
+      "service_2": {
+        "title": "Business Taxes",
+        "description": "Comprehensive management of business taxes, from planning to compliance with current legislation.",
+        "button": "Read More"
+      },
+      "service_3": {
+        "title": "Accounting",
+        "description": "Bookkeeping, financial statements, internal audits – we ensure rigorous accounting management.",
+        "button": "Read More"
+      },
+      "service_4": {
+        "title": "Payroll & Salaries",
+        "description": "Payroll management solutions, pay slips, social declarations, and HR support tailored to your needs.",
+        "button": "Read More"
+      },
+      "service_5": {
+        "title": "Outsourcing",
+        "description": "Outsource non-core functions so you can focus on your main business activities with peace of mind.",
+        "button": "Read More"
+      },
+      "service_6": {
+        "title": "Audit & Assurance",
+        "description": "Conducting financial and operational audits to ensure transparency, compliance, and performance.",
+        "button": "Read More"
+      }
+    },
+    "why_malaika": {
+      "title": "Why Malaika Services?",
+      "why_1": "Satisfied Clients",
+      "why_2": "Referral Rate",
+      "why_3": "Years of Experience",
+      "why_4": "Best Offers"
+    },
+    "tools": {
+      "title": "Our Tools",
+      "tool_1": {
+        "title": "Personal Taxes",
+        "description": "Access a tool dedicated to managing and easily filing your personal taxes online.",
+        "button": "Try It"
+      },
+      "tool_2": {
+        "title": "Business Taxes",
+        "description": "An intuitive platform to track your professional tax obligations and automate filings.",
+        "button": "Try It"
+      }
+    }
+  },
+  "About": {
+    "title": "About Us",
+    "description_1": "Malaika Services was born from the desire to make high-quality professional services accessible to all businesses, regardless of their size.",
+    "description_2": "Our team is made up of passionate experts, ready to support you with rigor and transparency in all your development projects.",
+    "our_team": {
+      "title": "Our Team"
+    },
+    "why_choose_us": {
+      "title": "Why Choose Malaika Services?",
+      "reason_1": "Personalized support every step of the way",
+      "reason_2": "Transparency and professional ethics",
+      "reason_3": "Simple and effective digital solutions",
+      "reason_4": "Experienced and multidisciplinary team",
+      "reason_5": "Competitive pricing tailored to your needs",
+      "reason_6": "Customer satisfaction at the heart of what we do"
+    }
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "message": "Leave us a message",
+    "form": {
+      "name": "Your Name...",
+      "email": "Your Email...",
+      "subject": "Subject...",
+      "message": "Your Message...",
+      "submit": "Send",
+      "submitting": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "An error occurred while sending the message."
+    },
+    "location": "Find Us",
+    "phone": "Call Us",
+    "legal_information": "Legal Information"
+  }
+}
