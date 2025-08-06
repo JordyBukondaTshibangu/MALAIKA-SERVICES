@@ -58,6 +58,6 @@ npm install
 npm run dev
 
 👤 Author
-Jordy Tshibangu
-🇨🇩 Kinshasa, DRC
+Jordy Tshibangu |
+🇨🇩 Kinshasa, DRC |
 Contact: contact@malaikaservices.com
