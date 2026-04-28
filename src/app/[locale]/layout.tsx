@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
+import { routing } from "@/i18n/routing";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
-import { routing } from "@/i18n/routing";
 
-import "./globals.css";
+import { ThemeProvider } from "@/components/providers/theme-provider";
 import Footer from "@/components/ui/footer";
 import LayoutWrapper from "@/components/ui/layout-wrapper";
-import { ThemeProvider } from "@/components/providers/theme-provider";
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,7 +41,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased relative overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative overflow-x-hidden w-full min-h-screen min-w-screen`}
       >
         <ThemeProvider
           attribute="class"

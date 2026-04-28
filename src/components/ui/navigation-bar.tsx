@@ -1,10 +1,9 @@
 "use client";
 
-import Image from "next/image";
-import { useLocale } from "next-intl";
-import { useTransition } from "react";
-import { useTranslations } from "next-intl";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
+import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
+import { useTransition } from "react";
 
 import Button from "@atoms/button";
 
@@ -63,7 +62,6 @@ export default function NavigationBar() {
       </ul>
 
       <div className="hidden xl:flex gap-4 items-center">
-        {/* Added items-center for alignment */}
         <Button buttonText={t("button")} />
         <select
           value={locale}

@@ -29,6 +29,7 @@ This is the official multilingual website for **Malaika Services**, a profession
 ---
 
 ## 📂 Project Structure (Important Folders)
+
 ├── app/
 │ ├── [locale]/
 │ │ ├── contact/page.tsx

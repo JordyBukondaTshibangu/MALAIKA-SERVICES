@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* :root {
+:root {
   --background-light: #ffffff;
   --foreground-light: #171717;
 }
@@ -8,7 +8,7 @@
 [data-theme="dark"] {
   --background: #0a0a0a;
   --foreground: white;
-} */
+}
 
 html.dark {
   --background-dark: #0a0a0a;
@@ -30,6 +30,11 @@ html.dark {
 }
 
 body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  width: 100%;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }

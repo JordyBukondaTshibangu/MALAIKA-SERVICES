@@ -1,18 +1,18 @@
+import { Link } from "@/i18n/navigation";
 import {
-  Phone,
-  Mail,
-  MapPin,
-  Youtube,
-  Twitter,
   Facebook,
   Instagram,
+  Mail,
+  MapPin,
+  Phone,
+  Twitter,
+  Youtube,
 } from "lucide-react";
-import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 
 import Button from "@atoms/button";
-import SocialIconLink from "@atoms/social-icon-link";
 import ContactInfoBlock from "@atoms/contact-info-block";
+import SocialIconLink from "@atoms/social-icon-link";
 
 const socialLinks = [
   { icon: <Facebook size={20} color="#fff" />, href: "#" },
@@ -60,7 +60,7 @@ function Footer() {
   ];
 
   return (
-    <footer className="bg-[#0a0a0a]">
+    <footer className="w-full bg-[#0a0a0a] min-w-screen">
       <div className="max-w-7xl mx-auto w-full py-16 flex flex-col gap-20 px-5">
         <div className="flex justify-between flex-wrap gap-6">
           {contactBlocks.map((block, i) => (

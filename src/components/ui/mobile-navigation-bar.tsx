@@ -45,13 +45,18 @@ export default function MobileNavigationBar({
   };
 
   return (
+<<<<<<< HEAD
     <nav className="flex flex-col gap-10 justify-center overflow-hidden md:hidden fixed top-0 bottom-0 left-0 right-0 bg-[#2598d4] px-5 py-20 z-10">
+=======
+    <nav className="flex flex-col gap-10 justify-center overflow-hidden md:hidden fixed top-0 bottom-0 left-0 right-0 bg-[#2598d4] px-5 py-10 z-10">
+>>>>>>> a4233cc (Initial commit — Malaika Services Next.js app)
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="flex flex-col  gap-8 w-full"
       >
+<<<<<<< HEAD
         <span
           onClick={closeMenu}
           className="self-end -mt-8 mb-12 cursor-pointer"
@@ -59,11 +64,21 @@ export default function MobileNavigationBar({
           <X size={32} />
         </span>
         <h1 className="text-[45px] font-medium  leading-[1.2] is-style-underlined-heading-nav">
+=======
+        <span onClick={closeMenu} className="self-end mb-8  cursor-pointer">
+          <X size={32} />
+        </span>
+        <h1 className="text-4xl font-medium  leading-[1.2] is-style-underlined-heading-nav">
+>>>>>>> a4233cc (Initial commit — Malaika Services Next.js app)
           <span className="font-bold">Malaika Services</span>
         </h1>
       </motion.div>
 
+<<<<<<< HEAD
       <ul className="flex flex-col gap-20">
+=======
+      <ul className="flex flex-col gap-16">
+>>>>>>> a4233cc (Initial commit — Malaika Services Next.js app)
         {navLinks.map(({ href, label }) => (
           <motion.li
             initial={{ opacity: 0, x: 80 }}
