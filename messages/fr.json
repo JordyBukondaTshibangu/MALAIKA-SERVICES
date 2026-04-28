@@ -187,6 +187,13 @@
       "reason_6": "Satisfaction client au cœur de nos priorités"
     }
   },
+  "NotFound": {
+    "banner_title": "Page Introuvable",
+    "code": "404",
+    "title": "Oups ! Vous semblez être perdu.",
+    "description": "La page que vous recherchez n'existe pas ou a peut-être été déplacée.",
+    "button": "Retour à l'accueil"
+  },
   "Contact": {
     "title": "Contactez-nous",
     "message": "Laissez-nous un message",

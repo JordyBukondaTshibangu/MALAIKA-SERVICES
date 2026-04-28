@@ -187,6 +187,13 @@
       "reason_6": "Customer satisfaction at the heart of what we do"
     }
   },
+  "NotFound": {
+    "banner_title": "Page Not Found",
+    "code": "404",
+    "title": "Oops! You seem to be lost.",
+    "description": "The page you're looking for doesn't exist or may have been moved.",
+    "button": "Back to Home"
+  },
   "Contact": {
     "title": "Contact Us",
     "message": "Leave us a message",
