@@ -1,11 +1,11 @@
 "use client";
 
-import { Link, usePathname, useRouter } from "@/i18n/navigation";
-import { useLocale, useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useTransition } from "react";
 
 import Button from "@atoms/button";
+import LanguageSwitcher from "@ui/language-switcher";
 
 export default function NavigationBar() {
   const t = useTranslations("Navigation");
@@ -16,24 +16,6 @@ export default function NavigationBar() {
     { href: "/about", label: t("about") },
     { href: "/contact", label: t("contact") },
   ];
-
-  const router = useRouter();
-  const locale = useLocale();
-  const pathname = usePathname();
-  const [isPending, startTransition] = useTransition();
-
-  const locales = [
-    { code: "en", label: "English" },
-    { code: "fr", label: "Français" },
-  ];
-
-  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const nextLocale = e.target.value;
-
-    startTransition(() => {
-      router.replace(pathname, { locale: nextLocale });
-    });
-  };
 
   return (
     <nav className="hidden md:flex sticky top-5 z-10 w-[90%] xl:w-full lg:max-w-7xl mx-auto justify-between items-center mt-4 bg-[#94949472] p-6 rounded-xl h-24 ">
@@ -63,18 +45,7 @@ export default function NavigationBar() {
 
       <div className="hidden xl:flex gap-4 items-center">
         <Button buttonText={t("button")} />
-        <select
-          value={locale}
-          onChange={handleChange}
-          disabled={isPending}
-          className="rounded-md border p-4 text-sm shadow-sm hover:shadow-md transition"
-        >
-          {locales.map((lang) => (
-            <option key={lang.code} value={lang.code}>
-              {lang.label}
-            </option>
-          ))}
-        </select>
+        <LanguageSwitcher />
       </div>
     </nav>
   );

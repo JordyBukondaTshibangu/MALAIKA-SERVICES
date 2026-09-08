@@ -20,11 +20,7 @@ export default function LayoutWrapper({
     <>
       <NavigationBar />
       {!isMenuOpen && (
-<<<<<<< HEAD
-        <span className="fixed block md:hidden right-5 top-10">
-=======
         <span className="fixed block md:hidden right-5 top-10 z-99">
->>>>>>> a4233cc (Initial commit — Malaika Services Next.js app)
           <Menu size={32} onClick={toggleMenu} />
         </span>
       )}

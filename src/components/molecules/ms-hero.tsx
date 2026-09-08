@@ -1,11 +1,6 @@
 "use client";
-<<<<<<< HEAD
 import { useTranslations } from "next-intl";
 import * as motion from "motion/react-client";
-=======
-import * as motion from "motion/react-client";
-import { useTranslations } from "next-intl";
->>>>>>> a4233cc (Initial commit — Malaika Services Next.js app)
 
 import Button from "@atoms/button";
 
@@ -13,11 +8,7 @@ function Hero() {
   const t = useTranslations("HomePage");
   return (
     <section className="bg-[url('/assets/hero-image.webp')] bg-cover w-full flex flex-col items-center h-[80%] -mt-48">
-<<<<<<< HEAD
-      <div className="flex flex-col gap-48 md:items-center  w-full h-full bg-black/70 pt-72 pb-48">
-=======
       <div className="flex flex-col gap-48 md:items-center  w-full h-full bg-black/70 pt-64 lg:pt-72 pb-48">
->>>>>>> a4233cc (Initial commit — Malaika Services Next.js app)
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -30,10 +21,6 @@ function Hero() {
               {t("hero.title_description_1")}
             </span>
             <span className="block font-bold">
-<<<<<<< HEAD
-              {" "}
-=======
->>>>>>> a4233cc (Initial commit — Malaika Services Next.js app)
               {t("hero.title_description_2")}
             </span>
           </h1>
