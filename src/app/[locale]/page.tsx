@@ -7,7 +7,7 @@ import MsClientsFeedback from "@components/molecules/ms-clients-feedback";
 
 export default function Home() {
   return (
-    <main className="min-w-screen w-full bg-whit flex flex-col gap-10 lg:gap-32 min-h-screen">
+    <main className="min-w-screen w-full bg-white flex flex-col gap-10 lg:gap-32 min-h-screen">
       <MSHero />
       <WelcomeToMs />
       <MsServices />
