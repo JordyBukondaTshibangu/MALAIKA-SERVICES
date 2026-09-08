@@ -21,7 +21,6 @@ function ClientCard({
           height={60}
           alt={name}
           className="object-contain rounded-full"
-          priority
         />
         <div className="flex-1">
           <span className="block font-medium text-black text-lg">{name}</span>

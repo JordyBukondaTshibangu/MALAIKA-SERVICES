@@ -58,7 +58,6 @@ export default function MsOurTeam() {
                   height={180}
                   alt={member.name}
                   className="object-cover rounded-full"
-                  priority
                 />
               </div>
               <div className="flex flex-col items-center gap-3">
@@ -68,16 +67,11 @@ export default function MsOurTeam() {
                 <span className="text-lg font-medium text-black">
                   {member.role}
                 </span>
-                <div className="flex justify-center gap-4">
-                  <a href="">
-                    <Mail color="#047db2" size={18} />
-                  </a>
-                  <a href="">
-                    <Twitter color="#047db2" size={18} />
-                  </a>
-                  <a href="">
-                    <Linkedin color="#047db2" size={18} />
-                  </a>
+                {/* TODO: wire these up to real profile links once available */}
+                <div className="flex justify-center gap-4" aria-hidden="true">
+                  <Mail color="#047db2" size={18} />
+                  <Twitter color="#047db2" size={18} />
+                  <Linkedin color="#047db2" size={18} />
                 </div>
               </div>
             </div>

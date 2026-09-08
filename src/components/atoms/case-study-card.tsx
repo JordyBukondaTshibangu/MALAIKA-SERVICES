@@ -20,7 +20,6 @@ const CaseStudyCard = ({
       height={1000}
       alt={title}
       className="object-contain"
-      priority
     />
     <h4 className="text-lg md:text-xl font-semibold text-black">{title}</h4>
     <p className="text-sm md:text-md text-[#7A7A7A] leading-7">{description}</p>

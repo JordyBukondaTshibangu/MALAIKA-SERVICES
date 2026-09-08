@@ -1,6 +1,5 @@
 "use client";
 
-import { z } from "zod";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useTranslations } from "next-intl";
@@ -10,27 +9,7 @@ import { Map, Phone, BriefcaseBusiness } from "lucide-react";
 
 import Button from "@atoms/button";
 import Feedback from "@atoms/feedback";
-
-const contactFormSchema = z.object({
-  name: z
-    .string()
-    .trim()
-    .min(2, "Name is required")
-    .max(100, "Name is too long"),
-  email: z.string().trim().email("Invalid email address"),
-  subject: z
-    .string()
-    .trim()
-    .min(3, "Subject is required")
-    .max(200, "Subject is too long"),
-  message: z
-    .string()
-    .trim()
-    .min(10, "Message must be at least 10 characters")
-    .max(1000, "Message is too long"),
-});
-
-type ContactFormInputs = z.infer<typeof contactFormSchema>;
+import { contactFormSchema, type ContactFormInputs } from "@/lib/contact-schema";
 
 type ContactInfoBlockProps = {
   icon: React.ElementType;
@@ -93,8 +72,6 @@ function MsContactForm() {
         },
         body: JSON.stringify(data),
       });
-
-      console.log("Response:", response);
 
       if (!response.ok) {
         const errorData = await response.json();

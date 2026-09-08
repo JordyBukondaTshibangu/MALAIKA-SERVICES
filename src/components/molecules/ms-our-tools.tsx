@@ -10,10 +10,12 @@ export default function MsOurTools() {
     {
       title: t("tools.tool_1.title"),
       description: t("tools.tool_1.description"),
+      buttonText: t("tools.tool_1.button"),
     },
     {
       title: t("tools.tool_2.title"),
       description: t("tools.tool_2.description"),
+      buttonText: t("tools.tool_2.button"),
     },
   ];
   return (

@@ -4,9 +4,11 @@ import Image from "next/image";
 const ToolCard = ({
   title,
   description,
+  buttonText,
 }: {
   title: string;
   description: string;
+  buttonText: string;
 }) => (
   <div className="flex flex-col gap-6 shadow-lg px-4 py-3 rounded-md bg-white">
     <div className="flex flex-col gap-2">
@@ -16,7 +18,6 @@ const ToolCard = ({
         height={1000}
         alt={title}
         className="object-contain"
-        priority
       />
     </div>
     <div className="flex flex-col gap-2 md:gap-4">
@@ -24,7 +25,7 @@ const ToolCard = ({
       <p className="text-sm md:text-md text-[#7A7A7A] leading-7">
         {description}
       </p>
-      <Button buttonText="Essayer" />
+      <Button buttonText={buttonText} />
     </div>
   </div>
 );

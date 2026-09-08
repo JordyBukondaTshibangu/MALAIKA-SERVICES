@@ -1,23 +1,17 @@
-import { z } from "zod";
 import { Resend } from "resend";
 import { NextRequest, NextResponse } from "next/server";
 
+import { contactFormSchema } from "@/lib/contact-schema";
+
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const contactFormSchema = z.object({
-  name: z
-    .string()
-    .trim()
-    .min(2, "Name is required")
-    .max(50, "Name must be less than 50 characters"),
-  email: z.email("Invalid email address"),
-  subject: z
-    .string()
-    .trim()
-    .min(2, "Subject is required")
-    .max(100, "Subject must be less than 50 characters"),
-  message: z.string().trim().min(10, "Message is required"),
-});
+const escapeHtml = (value: string) =>
+  value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 
 export async function POST(request: NextRequest) {
   try {
@@ -38,11 +32,11 @@ export async function POST(request: NextRequest) {
       from: process.env.RESEND_FROM_EMAIL!,
       to: process.env.RESEND_TO_EMAIL!,
       subject,
-      html: ` <h2>New Contact Message from ${name}</h2>
-                <p><strong>Email:</strong> ${email}</p>
-                <p><strong>Subject:</strong> ${subject}</p>
+      html: ` <h2>New Contact Message from ${escapeHtml(name)}</h2>
+                <p><strong>Email:</strong> ${escapeHtml(email)}</p>
+                <p><strong>Subject:</strong> ${escapeHtml(subject)}</p>
                 <p><strong>Message:</strong></p>
-                <p>${message.replace(/\n/g, "<br>")}</p>
+                <p>${escapeHtml(message).replace(/\n/g, "<br>")}</p>
             `,
       replyTo: email!,
     });
@@ -50,7 +44,7 @@ export async function POST(request: NextRequest) {
     if (error) {
       console.error("Resend error:", error);
       return NextResponse.json(
-        { message: "Failed to send email", error: error },
+        { message: "Failed to send email" },
         { status: 500 }
       );
     }
@@ -62,7 +56,7 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error("Error sending email:", error);
     return NextResponse.json(
-      { message: "Failed to send email", error: error },
+      { message: "Failed to send email" },
       { status: 500 }
     );
   }
