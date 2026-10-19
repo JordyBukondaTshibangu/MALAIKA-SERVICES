@@ -1,131 +1,117 @@
-import { Link } from "@/i18n/navigation";
-import {
-  Facebook,
-  Instagram,
-  Mail,
-  MapPin,
-  Phone,
-  Twitter,
-  Youtube,
-} from "lucide-react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Facebook, Instagram, Linkedin, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 
-import Button from "@atoms/button";
-import ContactInfoBlock from "@atoms/contact-info-block";
-import SocialIconLink from "@atoms/social-icon-link";
+import { Link } from "@/i18n/navigation";
+import { siteConfig, telHref, whatsappHref } from "@/config/site";
+import { hrServices, spaceServices } from "@/data/services";
 
-const socialLinks = [
-  { icon: <Facebook size={20} color="#fff" />, href: "#" },
-  { icon: <Twitter size={20} color="#fff" />, href: "#" },
-  { icon: <Instagram size={20} color="#fff" />, href: "#" },
-  { icon: <Youtube size={20} color="#fff" />, href: "#" },
-];
-
-function Footer() {
+export default function Footer() {
   const t = useTranslations("Footer");
+  const nav = useTranslations("Navigation");
+  const hr = useTranslations("HrServices");
+  const spaces = useTranslations("Spaces");
+  const common = useTranslations("Common");
+  const { contact, social } = siteConfig;
 
-  const contactBlocks = [
-    {
-      icon: <Phone size={30} color="#2598d4" />,
-      title: t("contact_us"),
-      value: "(+021) 645 863 232",
-    },
-    {
-      icon: <Mail size={30} color="#2598d4" />,
-      title: t("send_us_a_message"),
-      value: "support@domain.com",
-    },
-    {
-      icon: <MapPin size={30} color="#2598d4" />,
-      title: t("address"),
-      value: "Boulevard du 30 Juin, 2eme et 3eme etages.",
-    },
-  ];
+  const socials = [
+    { href: social.facebook, icon: Facebook, label: "Facebook" },
+    { href: social.instagram, icon: Instagram, label: "Instagram" },
+    { href: social.linkedin, icon: Linkedin, label: "LinkedIn" },
+  ].filter((s) => s.href);
 
-  const quickLinks = [
-    { label: t("quick_links.about"), href: "/about" },
-    { label: t("quick_links.services"), href: "/services" },
-    { label: t("quick_links.projects"), href: "/services" },
-    { label: t("quick_links.price"), href: "/services" },
-    { label: t("quick_links.careers"), href: "/contact" },
-  ];
-
-  const legalLinks = [
-    { label: t("legalLinks.privacy"), href: "/privacy-policy" },
-    { label: t("legalLinks.TandCs"), href: "/terms-and-conditions" },
-    { label: t("legalLinks.refund"), href: "/refund-policy" },
-    { label: t("legalLinks.disclaimer"), href: "/disclaimer" },
-    { label: t("legalLinks.support"), href: "/support" },
-    { label: t("legalLinks.faq"), href: "/faq" },
-  ];
+  const linkClass = "text-white/70 transition-colors hover:text-white";
 
   return (
-    <footer className="w-full bg-[#0a0a0a] min-w-screen">
-      <div className="max-w-7xl mx-auto w-full py-16 flex flex-col gap-20 px-5">
-        <div className="flex justify-between flex-wrap gap-6">
-          {contactBlocks.map((block, i) => (
-            <ContactInfoBlock key={i} {...block} />
-          ))}
-        </div>
-
-        <div className="flex justify-between flex-wrap gap-12 border-t border-[#343940] pt-8">
-          <div className="w-full lg:max-w-md flex flex-col gap-4">
-            <h3 className="text-3xl font-medium">{t("title")}</h3>
-            <p className="text-white leading-7">{t("description")}</p>
-            <div className="flex gap-4">
-              {socialLinks.map((link, i) => (
-                <SocialIconLink key={i} {...link} />
-              ))}
-            </div>
+    <footer className="bg-ink text-white">
+      <div className="mx-auto max-w-7xl px-5 pb-10 pt-16 md:px-8 lg:pt-20">
+        <div className="grid gap-12 lg:grid-cols-[1.3fr_1fr_1fr_1.2fr]">
+          <div className="max-w-sm">
+            <Link href="/" className="inline-block rounded-2xl bg-white px-4 py-3" aria-label={siteConfig.name}>
+              <Image src="/assets/logo-horizontal.png" alt={siteConfig.name} width={309} height={120} className="h-10 w-auto" />
+            </Link>
+            <p className="mt-6 text-white/70">{t("description")}</p>
+            <p className="mt-4 font-display font-medium text-leaf">{common("tagline")}</p>
+            {socials.length > 0 && (
+              <div className="mt-6 flex gap-3">
+                {socials.map(({ href, icon: Icon, label }) => (
+                  <a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={label}
+                    className="grid size-10 place-items-center rounded-full bg-white/10 transition-colors hover:bg-leaf">
+                    <Icon size={18} aria-hidden />
+                  </a>
+                ))}
+              </div>
+            )}
           </div>
 
-          <div className="w-full lg:w-1/4">
-            <h3 className="font-medium text-[#047db2]">
-              {t("quick_links.title")}
-            </h3>
-            <ul className="flex flex-col gap-2 list-disc px-5 py-4">
-              {quickLinks.map(({ label, href }) => (
-                <li key={label}>
-                  <Link href={href}>{label}</Link>
+          <nav aria-label={t("hr_services")}>
+            <h2 className="font-display text-sm font-semibold !text-white">{t("hr_services")}</h2>
+            <ul className="mt-5 flex flex-col gap-3 text-[0.95rem]">
+              {hrServices.map(({ key }) => (
+                <li key={key}>
+                  <Link href={{ pathname: "/services", hash: key }} className={linkClass}>{hr(`${key}.title`)}</Link>
                 </li>
               ))}
             </ul>
-          </div>
+          </nav>
 
-          <div className="w-full lg:w-1/4">
-            <h3 className="font-medium text-[#047db2]">
-              {t("legalLinks.title")}
-            </h3>
-            <ul className="flex flex-col gap-2 list-disc px-5 py-4">
-              {legalLinks.map(({ label, href }) => (
+          <nav aria-label={t("spaces")}>
+            <h2 className="font-display text-sm font-semibold !text-white">{t("spaces")}</h2>
+            <ul className="mt-5 flex flex-col gap-3 text-[0.95rem]">
+              {spaceServices.map(({ key }) => (
+                <li key={key}>
+                  <Link href={{ pathname: "/services", hash: "espaces" }} className={linkClass}>{spaces(`${key}.title`)}</Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <div>
+            <h2 className="font-display text-sm font-semibold !text-white">{t("contact")}</h2>
+            <ul className="mt-5 flex flex-col gap-4 text-[0.95rem]">
+              {contact.phone && (
+                <li className="flex gap-3">
+                  <Phone size={18} className="mt-1 shrink-0 text-leaf" aria-label={t("phone")} />
+                  <a href={telHref(contact.phone)} className={linkClass}>{contact.phone}</a>
+                </li>
+              )}
+              {contact.whatsapp && (
+                <li className="flex gap-3">
+                  <MessageCircle size={18} className="mt-1 shrink-0 text-leaf" aria-label={t("whatsapp")} />
+                  <a href={whatsappHref(contact.whatsapp)} target="_blank" rel="noopener noreferrer" className={linkClass}>{contact.whatsapp}</a>
+                </li>
+              )}
+              {contact.email && (
+                <li className="flex gap-3">
+                  <Mail size={18} className="mt-1 shrink-0 text-leaf" aria-label={t("email")} />
+                  <a href={`mailto:${contact.email}`} className={linkClass}>{contact.email}</a>
+                </li>
+              )}
+              <li className="flex gap-3">
+                <MapPin size={18} className="mt-1 shrink-0 text-leaf" aria-label={t("address")} />
+                <address className="not-italic text-white/70">
+                  {contact.addressLines.map((l) => (<span key={l} className="block">{l}</span>))}
+                </address>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-16 flex flex-col-reverse items-start justify-between gap-6 border-t border-white/10 pt-8 text-sm text-white/60 md:flex-row md:items-center">
+          <p>{t("copyright", { year: new Date().getFullYear() })}</p>
+          <nav aria-label={t("navigation")}>
+            <ul className="flex flex-wrap gap-x-6 gap-y-2">
+              {(["/", "/services", "/about", "/contact"] as const).map((href, i) => (
                 <li key={href}>
-                  <Link href={href}>{label}</Link>
+                  <Link href={href} className={linkClass}>
+                    {nav((["home", "services", "about", "contact"] as const)[i])}
+                  </Link>
                 </li>
               ))}
             </ul>
-          </div>
-
-          <div className="w-full md:max-w-1/2 lg:max-w-md flex flex-col gap-4">
-            <h3 className="font-medium text-[#047db2]">
-              {t("newsletter.title")}
-            </h3>
-            <p className="text-white leading-7">
-              {t("newsletter.description")}
-            </p>
-            <Button buttonText={t("newsletter.button")} />
-          </div>
-        </div>
-
-        <div className="flex justify-between items-center border-t border-[#343940] py-8 flex-wrap gap-4">
-          <p className="text-white text-sm">{t("copyright")}</p>
-          <div className="flex gap-4">
-            <Link href="/terms-and-conditions">Terms & Conditions</Link>
-            <Link href="/privacy-policy">Privacy Policy</Link>
-          </div>
+          </nav>
         </div>
       </div>
     </footer>
   );
 }
-
-export default Footer;

@@ -1,28 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-
-import { routing } from "@/i18n/routing";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
-import { ThemeProvider } from "@/components/providers/theme-provider";
-import Footer from "@/components/ui/footer";
-import LayoutWrapper from "@/components/ui/layout-wrapper";
+import "@fontsource-variable/lexend";
+import "@fontsource-variable/figtree";
+
+import { routing } from "@/i18n/routing";
+import { siteConfig } from "@/config/site";
+import MotionProvider from "@/components/motion/motion-provider";
+import SiteHeader from "@ui/site-header";
+import Footer from "@ui/footer";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.malaikaservices.com";
 
 // Open Graph expects language_TERRITORY tags (e.g. "en_US"), not the bare
 // language codes next-intl uses for routing.
@@ -30,6 +19,10 @@ const ogLocales: Record<string, string> = {
   en: "en_US",
   fr: "fr_FR",
 };
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 export async function generateMetadata({
   params,
@@ -40,18 +33,24 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
   return {
-    metadataBase: new URL(siteUrl),
+    metadataBase: new URL(siteConfig.url),
     title: {
       default: t("title"),
-      template: `%s | Malaika Services`,
+      template: `%s | ${siteConfig.name}`,
     },
     description: t("description"),
+    alternates: {
+      languages: Object.fromEntries(
+        routing.locales.map((l) => [l, `/${l}`])
+      ),
+    },
     openGraph: {
       title: t("title"),
       description: t("description"),
-      siteName: "Malaika Services",
+      siteName: siteConfig.name,
       locale: ogLocales[locale] ?? locale,
       type: "website",
+      images: ["/assets/logo.png"],
     },
   };
 }
@@ -68,23 +67,25 @@ export default async function RootLayout({
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "Common" });
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased relative overflow-x-hidden w-full min-h-screen min-w-screen`}
-      >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <NextIntlClientProvider>
-            <LayoutWrapper>{children}</LayoutWrapper>
+    <html lang={locale}>
+      <body className="min-h-screen overflow-x-hidden">
+        <NextIntlClientProvider>
+          <MotionProvider>
+            <a
+              href="#main"
+              className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-ink focus:px-4 focus:py-2 focus:text-white"
+            >
+              {t("skip_to_content")}
+            </a>
+            <SiteHeader />
+            <div id="main">{children}</div>
             <Footer />
-          </NextIntlClientProvider>
-        </ThemeProvider>
+          </MotionProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

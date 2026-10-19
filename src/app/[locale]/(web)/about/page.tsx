@@ -1,15 +1,35 @@
-import MsAboutUs from "@components/molecules/ms-about-us";
-import MsOurTeam from "@components/molecules/ms-our-team";
-import MsWhyChoosingUs from "@components/molecules/ms-why-choosing-us";
+import type { Metadata } from "next";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
-function AboutUs() {
+import PageHeader from "@molecules/ms-page-header";
+import { AboutStory, MissionVision, Values, Team } from "@molecules/ms-about";
+import WhyUs from "@molecules/ms-why-us";
+import Audiences from "@molecules/ms-audiences";
+import CtaBanner from "@molecules/ms-cta-banner";
+
+type Props = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Metadata" });
+  return { title: t("about_title") };
+}
+
+export default async function AboutPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("About");
+
   return (
-    <main className="flex flex-col w-full min-h-screen bg-white pt-20">
-      <MsAboutUs />
-      <MsOurTeam />
-      <MsWhyChoosingUs />
+    <main className="pt-4">
+      <PageHeader title={t("title")} lead={t("lead")} />
+      <AboutStory />
+      <MissionVision />
+      <Values />
+      <Team />
+      <WhyUs />
+      <Audiences />
+      <CtaBanner />
     </main>
   );
 }
-
-export default AboutUs;

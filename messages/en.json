@@ -1,218 +1,345 @@
 {
   "Metadata": {
-    "title": "Malaika Services | Tax, Accounting & Payroll Experts",
-    "description": "Malaika Services offers professional tax, accounting, payroll, auditing, and outsourcing services tailored to businesses of every size."
+    "title": "Malaïka Services | Recruitment, staffing and HR outsourcing in Kinshasa",
+    "description": "Malaïka Services supports businesses in the DRC with recruitment, staff placement and secondment, personnel administration and payroll, plus coworking, private offices and business domiciliation.",
+    "about_title": "About",
+    "services_title": "Our services",
+    "contact_title": "Contact"
+  },
+  "Common": {
+    "tagline": "More than a strategy, a solution.",
+    "skip_to_content": "Skip to content",
+    "learn_more": "Learn more",
+    "in_development": "In development"
   },
   "Navigation": {
     "home": "Home",
     "services": "Services",
     "about": "About",
     "contact": "Contact",
-    "button": "Consult Us"
+    "button": "Tell us your need",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "change_language": "Change language"
   },
   "Footer": {
-    "title": "Malaika Services",
-    "description": "Malaika Services is a company dedicated to providing high-quality accounting, tax, and administrative solutions to individuals and businesses.",
-    "contact_us": "Contact Us",
-    "send_us_a_message": "Send us a message",
-    "address": "Our Address",
-    "quick_links": {
-      "title": "Quick Links",
-      "about": "About",
-      "services": "Services",
-      "projects": "Projects",
-      "price": "Pricing",
-      "careers": "Contact"
-    },
-    "legalLinks": {
-      "title": "Legal Links",
-      "TandCs": "Terms and Conditions",
-      "privacy": "Privacy Policy",
-      "support": "Support",
-      "refund": "Refund Policy",
-      "disclaimer": "Disclaimers",
-      "faq": "FAQ"
-    },
-    "newsletter": {
-      "title": "Newsletter",
-      "description": "Stay informed about our latest news and offers. Subscribe now to our newsletter!",
-      "button": "Subscribe"
-    },
-    "copyright": "Malaika Services © 2023. All rights reserved."
+    "description": "Recruitment, staff placement and HR outsourcing for businesses in the Democratic Republic of the Congo.",
+    "navigation": "Navigation",
+    "hr_services": "Human resources",
+    "spaces": "Spaces and support",
+    "contact": "Reach us",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "whatsapp": "WhatsApp",
+    "copyright": "© {year} Malaïka Services SARL. All rights reserved."
   },
   "HomePage": {
     "hero": {
-      "title": "Malaika Services -",
-      "title_description_1": " More than a strategy,",
-      "title_description_2": "a Solution",
-      "subtitle": "Spaces, talents, and opportunities under one roof.",
-      "button_1": "Get Started",
-      "button_2": "Learn More"
-    },
-    "welcome_to_malaika": {
-      "title": "Welcome to Malaika Services",
-      "subtitle": "Your strategic partner for growth",
-      "description": "At Malaika Services, we offer a complete range of professional services designed to support businesses in their development, tax compliance, administrative management, and financial optimization.",
-      "list_1": [
-        "Accounting expertise tailored to every sector",
-        "Personalized tax advice",
-        "Administrative support and payroll management"
-      ],
-      "list_2": [
-        "Flexible and innovative solutions",
-        "Tailored support",
-        "Experienced professionals at your service"
-      ],
-      "metrics": {
-        "metric_1": "Satisfied Clients",
-        "metric_2": "Years of Experience",
-        "metric_3": "Projects Completed",
-        "metric_4": "Qualified Professionals"
+      "title": "Simplify your human resources and focus on your business.",
+      "description": "Malaïka Services puts its expertise in recruitment, human resources and staff placement at the service of businesses, so they can build, manage and grow high-performing teams with confidence.",
+      "primary_cta": "Tell us about your HR need",
+      "secondary_cta": "Discover our workspaces",
+      "art_label": "Illustration: a network connecting businesses and talent",
+      "chips": {
+        "recruitment": "Recruitment",
+        "payroll": "Payroll",
+        "contracts": "Contracts",
+        "placement": "Placement"
       }
     },
-    "services": {
-      "title": "Our Services",
-      "subtitle": "What Services Do We Offer?",
-      "description": "We support businesses and individuals with their tax, accounting, payroll, and administrative needs through practical and effective solutions.",
-      "button": "See More Services"
+    "intro": {
+      "title": "Recruiting, contracts, payroll, declarations: we take it from here.",
+      "description": "Recruiting, drawing up contracts, running payroll and keeping up with social obligations take time, method and the right skills. Malaïka Services offers businesses flexible support to outsource some or all of these functions.",
+      "description_2": "From analysing the need to following up with employees, we favour an accessible relationship, clear procedures and transparent information, so every client can move forward with better visibility.",
+      "link": "Who we are",
+      "image_alt": "A team in a working meeting"
     },
-    "case_studies": {
-      "title": "Our Projects",
-      "subtitle": "Let’s explore our work",
-      "description": "Discover how we've helped businesses improve their financial management, optimize HR processes, and stay legally compliant.",
-      "case_1": {
-        "title": "Tax Optimization for a Local SME",
-        "description": "Implemented a tailored tax strategy that helped reduce the company’s annual expenses by 15%.",
-        "button": "Read More"
-      },
-      "case_2": {
-        "title": "Outsourced Payroll Management for a Startup",
-        "description": "We helped a young startup automate its salary management and social declarations in full compliance.",
-        "button": "Read More"
-      },
-      "case_3": {
-        "title": "Financial Audit for an International NGO",
-        "description": "A rigorous audit that strengthened financial transparency and credibility with donors.",
-        "button": "Read More"
-      }
+    "hr": {
+      "title": "An HR solution that fits your organisation",
+      "description": "One-off recruitment, placement or secondment of staff, outsourcing of certain administrative and social functions: we analyse your need and propose the right scope of work.",
+      "link": "See our HR services in detail"
     },
-    "clients_feedback": {
-      "title": "Client Feedback",
-      "subtitle": "What Our Clients Say",
-      "description": "Our clients share their satisfaction in working with Malaika Services and the results achieved through our expertise.",
-      "client_1": {
-        "name": "Jordy Tshibangu",
-        "position": "Software Engineer",
-        "feedback": "Malaika helped us simplify our accounting management while ensuring perfect compliance with local requirements."
-      },
-      "client_2": {
-        "name": "David Kasongo",
-        "position": "Entrepreneur",
-        "feedback": "Reliable, responsive service with a personal touch. Thanks to them, I can focus on my business without worrying about tax matters."
-      }
-    },
-    "get_in_touch": {
-      "title": "Get In Touch",
-      "subtitle": "Still unsure about our features?",
-      "subtitle_description": "Request a consultation.",
-      "description": "Have questions or want to learn more about our services? Contact us today to discuss your needs and get personalized support.",
-      "button": "Request a Consultation"
+    "spaces": {
+      "title": "Spaces and support to get you set up",
+      "description": "Coworking, equipped offices, domiciliation, a meeting room and administrative support: complementary services to back your organisation and growth.",
+      "link": "Discover our spaces"
     }
   },
-  "Services": {
-    "title": "Our Services",
-    "services": {
-      "service_1": {
-        "title": "Personal Taxes",
-        "description": "Personalized advice and support for the declaration, optimization, and payment of your personal taxes.",
-        "button": "Read More"
+  "HrServices": {
+    "intro": "Every business needs reliable employees and well-managed personnel administration. Not every business has the time, tools or a structured HR department to handle each step. Malaïka Services analyses the need and proposes a suitable scope of work.",
+    "scope_note": "Responsibilities, deliverables, timelines and contractual terms are agreed with the client before the assignment begins.",
+    "recruitment": {
+      "title": "Recruitment",
+      "summary": "We clarify the role, source candidates, run a structured pre-selection and present the applications that match your expectations.",
+      "body_1": "When you need to fill a position without the time, internal resources or visibility to do it, we support you at every stage of recruitment. We clarify the role and selection criteria, source candidates, run a structured pre-selection and present the applications that match your expectations.",
+      "body_2": "In a one-off recruitment, the selected candidate is hired directly by your company. Our involvement gives you a better-organised process, more targeted applications and more time to focus on the final decision.",
+      "cta": "Trust us with your next hire"
+    },
+    "placement": {
+      "title": "Placement and secondment",
+      "summary": "Strengthen your teams or outsource the management of some employees, with one named contact for administrative follow-up.",
+      "body_1": "To strengthen your teams or outsource the management of certain employees, we offer placement and secondment solutions framed around your needs. Once we have agreed the terms of the assignment with you, we source or mobilise candidates, organise the selection and manage the employees concerned within the agreed scope.",
+      "body_2": "You get a solution suited to your organisation and a named contact for the administrative follow-up of placed or seconded staff.",
+      "cta": "Let’s discuss the right formula for your workforce"
+    },
+    "administration": {
+      "title": "Personnel administration",
+      "summary": "Preparing and tracking contracts, keeping personnel files and handling the administrative steps included in the assignment.",
+      "body_1": "Managing contracts, personnel files and administrative obligations can take up a lot of your team’s time. We help you prepare and track contracts, keep the necessary records and handle the administrative procedures included in the scope of our assignment.",
+      "body_2": "Our work helps improve file tracking, clarify responsibilities and reduce the risk of omissions or errors. When a situation calls for specific expertise, we bring in qualified consultants.",
+      "cta": "Let’s review your administrative needs"
+    },
+    "payroll": {
+      "title": "Payroll and social declarations",
+      "summary": "Preparing payroll inputs, checking calculations and supporting you with social declarations and contributions.",
+      "body_1": "Calculating pay, deductions and social contributions requires precision, regularity and a firm grasp of the applicable obligations. Depending on the agreed assignment, we prepare payroll inputs, check the calculations and support you in preparing social declarations and contributions.",
+      "body_2": "The required information, responsibilities, approvals and supporting documents are agreed with you from the start. This makes payroll clearer and helps you keep track of social deadlines, provided the necessary data is supplied completely and accurately.",
+      "cta": "Let’s talk about how your payroll is organised"
+    },
+    "training": {
+      "title": "Training and talent preparation",
+      "summary": "Programmes to prepare young graduates for the realities of the job market. Currently in development.",
+      "body_1": "We believe every talent deserves the chance to reveal their potential and enter the working world with confidence. That is why we want to support candidates, especially young graduates, in gaining the practical skills, professional attitudes and bearings they need to meet the realities of the job market.",
+      "body_2": "Our ambition is to gradually build training programmes rooted in the concrete needs of businesses, while developing a pool of prepared, motivated candidates able to integrate lastingly into their workplace. As these programmes are still in development, their content, format and launch date will be announced once they officially start.",
+      "cta": "Ask what is available now"
+    }
+  },
+  "Process": {
+    "title": "Your journey in five steps",
+    "description": "A clear approach, from the first conversation to the follow-up of the assignment.",
+    "steps": {
+      "1": {
+        "title": "Understanding the need",
+        "description": "We discuss the role, the headcount involved, the skills you are looking for, the context, the constraints and the expected responsibilities."
       },
-      "service_2": {
-        "title": "Business Taxes",
-        "description": "Comprehensive management of business taxes, from planning to compliance with current legislation.",
-        "button": "Read More"
+      "2": {
+        "title": "Defining the solution",
+        "description": "We propose a scope of work: one-off recruitment, placement or secondment, personnel administration, payroll, or a combination of several services."
       },
-      "service_3": {
-        "title": "Accounting",
-        "description": "Bookkeeping, financial statements, internal audits – we ensure rigorous accounting management.",
-        "button": "Read More"
+      "3": {
+        "title": "Sourcing or mobilising candidates",
+        "description": "Depending on the assignment, we source applications, activate available candidates or prepare what is needed for administrative outsourcing."
       },
-      "service_4": {
-        "title": "Payroll & Salaries",
-        "description": "Payroll management solutions, pay slips, social declarations, and HR support tailored to your needs.",
-        "button": "Read More"
+      "4": {
+        "title": "Selection and contracting",
+        "description": "Candidates are assessed against the agreed criteria. The type of engagement, responsibilities and applicable terms are then formalised by the parties concerned."
       },
-      "service_5": {
-        "title": "Outsourcing",
-        "description": "Outsource non-core functions so you can focus on your main business activities with peace of mind.",
-        "button": "Read More"
-      },
-      "service_6": {
-        "title": "Audit & Assurance",
-        "description": "Conducting financial and operational audits to ensure transparency, compliance, and performance.",
-        "button": "Read More"
+      "5": {
+        "title": "Placement, management or follow-up",
+        "description": "The candidate is hired by the client or managed under the chosen placement or secondment formula. Malaïka Services provides the follow-up set out in the assignment."
       }
     },
-    "why_malaika": {
-      "title": "Why Malaika Services?",
-      "why_1": "Satisfied Clients",
-      "why_2": "Referral Rate",
-      "why_3": "Years of Experience",
-      "why_4": "Best Offers"
+    "step_label": "Step {n} of 5",
+    "cta": "Start with step 1"
+  },
+  "Spaces": {
+    "title": "Workspaces and business support",
+    "description": "Complementary services to help you set up, meet and move your paperwork forward.",
+    "availability": "Plans, prices and availability on request.",
+    "coworking": {
+      "title": "Coworking",
+      "description": "Work in a shared professional space suited to entrepreneurs, consultants and small teams. Depending on the plan, access can include a workstation, an internet connection, a break area and some administrative services.",
+      "cta": "Check available desks"
     },
-    "tools": {
-      "title": "Our Tools",
-      "tool_1": {
-        "title": "Personal Taxes",
-        "description": "Access a tool dedicated to managing and easily filing your personal taxes online.",
-        "button": "Try It"
-      },
-      "tool_2": {
-        "title": "Business Taxes",
-        "description": "An intuitive platform to track your professional tax obligations and automate filings.",
-        "button": "Try It"
-      }
+    "private_office": {
+      "title": "Equipped private offices",
+      "description": "Equipped private offices give you a professional workplace without immediately taking on the full set-up of a permanent office.",
+      "cta": "Ask for the terms"
+    },
+    "domiciliation": {
+      "title": "Business domiciliation",
+      "description": "A registered business address made available under contractually defined terms. Depending on the plan, the service can include receiving mail and notifying you when it arrives.",
+      "cta": "Ask for the terms"
+    },
+    "room_rental": {
+      "title": "Room rental",
+      "description": "An equipped room for your meetings, training sessions and other professional gatherings.",
+      "cta": "Book a visit"
+    },
+    "admin_facilitation": {
+      "title": "Administrative facilitation",
+      "description": "We help businesses identify the procedures, contacts and documents needed for certain administrative, tax or company-formation files. This makes official procedures easier to prepare and follow; it does not replace the competent authority or any required authorisation.",
+      "cta": "Tell us about your file"
+    },
+    "tax": {
+      "title": "Tax support and specialist referral",
+      "description": "Our experience in accounting and tax allows us to provide support within the agreed scope. When a question requires regulated or specialist expertise, we refer the file or work alongside qualified consultants. Malaïka Services is neither a law firm nor a tax authority.",
+      "cta": "Ask your question"
+    },
+    "visit_title": "Come and see our spaces",
+    "visit_description": "Book a visit or ask for the terms for coworking, private offices, room rental and domiciliation.",
+    "visit_cta": "Request an appointment"
+  },
+  "Audiences": {
+    "title": "Who we work with",
+    "description": "From large organisations to young graduates, the same commitment to clarity.",
+    "large": {
+      "title": "Large companies",
+      "description": "We support organisations that want to outsource recruitment, placement, secondment or the administrative follow-up of part of their workforce, within a clearly defined scope."
+    },
+    "sme": {
+      "title": "Small and medium-sized businesses",
+      "description": "A flexible solution for businesses with a few employees and no structured HR department. Support can cover a specific hire, payroll, contracts or several administrative functions."
+    },
+    "banks": {
+      "title": "Banks and retailers",
+      "description": "We look at recurring or one-off needs, notably for cashier, reception and administrative support profiles."
+    },
+    "telecom": {
+      "title": "Telecommunications",
+      "description": "We analyse the recruitment, placement and administrative support needs of telecom companies, based on the roles, volumes and timelines you share."
+    },
+    "graduates": {
+      "title": "Young graduates and candidates",
+      "description": "We connect businesses with candidates prepared for professional realities. You can apply for the opportunities currently available.",
+      "cta": "Send my application"
     }
   },
   "About": {
-    "title": "About Us",
-    "description_1": "Malaika Services was born from the desire to make high-quality professional services accessible to all businesses, regardless of their size.",
-    "description_2": "Our team is made up of passionate experts, ready to support you with rigor and transparency in all your development projects.",
-    "our_team": {
-      "title": "Our Team"
+    "title": "Who we are",
+    "lead": "A partner specialised in recruitment, staff placement and human resources outsourcing.",
+    "description_1": "We help businesses build and manage teams suited to their needs, with rigour, proximity and transparency.",
+    "description_2": "Our expertise also covers payroll, personnel administration and administrative and tax support. Through our complementary coworking, domiciliation and workspace services, we offer businesses structured support for their organisation and growth.",
+    "image_alt": "Office building",
+    "mission": {
+      "title": "Our mission",
+      "description": "To help businesses recruit, administer and support their employees with more simplicity, compliance and transparency, while letting them stay focused on their core business."
     },
-    "why_choose_us": {
-      "title": "Why Choose Malaika Services?",
-      "reason_1": "Personalized support every step of the way",
-      "reason_2": "Transparency and professional ethics",
-      "reason_3": "Simple and effective digital solutions",
-      "reason_4": "Experienced and multidisciplinary team",
-      "reason_5": "Competitive pricing tailored to your needs",
-      "reason_6": "Customer satisfaction at the heart of what we do"
+    "vision": {
+      "title": "Our vision",
+      "description": "To become, within the next five to ten years, a benchmark for human resources outsourcing in the Democratic Republic of the Congo, then gradually build accessible bridges between training young talent and the needs of businesses."
+    },
+    "values": {
+      "title": "Our values",
+      "transparency": {
+        "title": "Transparency",
+        "description": "We explain the service, the responsibilities and the contractual terms in plain language. Where the formula allows, salaries, charges and management fees are shown separately, with the supporting documents available."
+      },
+      "listening": {
+        "title": "Listening",
+        "description": "Every engagement starts with understanding the client’s need, context and constraints. This guides us towards a suitable solution rather than a standard answer."
+      },
+      "proximity": {
+        "title": "Proximity",
+        "description": "We stay accessible to businesses and candidates throughout the key stages of the assignment. A good relationship helps prevent misunderstandings and makes follow-up easier."
+      },
+      "rigor": {
+        "title": "Rigour",
+        "description": "We rely on defined steps, tools and internal templates to organise recruitment and administrative follow-up. Specialist matters are directed to qualified consultants when needed."
+      },
+      "adaptability": {
+        "title": "Adaptability",
+        "description": "One-off recruitment, placement, secondment or administrative outsourcing: the formula is set according to the company’s situation and the agreed scope."
+      }
+    },
+    "team": {
+      "title": "Leadership team",
+      "education": "Education",
+      "experience": "Experience",
+      "expertise": "Key expertise"
     }
   },
+  "WhyUs": {
+    "title": "Why choose Malaïka Services?",
+    "transparent": {
+      "title": "Transparent information",
+      "description": "The service, responsibilities and management terms are clearly explained. Financial items are broken down according to the applicable formula, and available supporting documents are shared within the agreed framework."
+    },
+    "tailored": {
+      "title": "Solutions that fit the need",
+      "description": "Support can cover a one-off assignment or the outsourcing of several functions. The scope is defined around the client’s organisation."
+    },
+    "close": {
+      "title": "A contact close at hand",
+      "description": "We prioritise listening, accessibility and follow-up with clients and with the employees concerned."
+    },
+    "skills": {
+      "title": "Complementary skills",
+      "description": "Experience in payroll, accounting, tax and administration rounds out our HR work. Specialist topics can be handled by or referred to qualified consultants."
+    },
+    "procedures": {
+      "title": "Procedures you can follow",
+      "description": "Recruitment and administrative follow-up rely on defined steps, tools and internal templates. The exact terms are adapted and shared for each assignment."
+    },
+    "human": {
+      "title": "A human approach",
+      "description": "Beyond files and calculations, every assignment is about people and an organisation. We make sure expectations are clear and keep a useful dialogue going between the parties."
+    }
+  },
+  "Cta": {
+    "title": "Let’s talk about your need",
+    "description": "Looking for an employee, want to outsource part of your HR, or need better administrative follow-up for your staff? Tell us about your context and we’ll identify the most suitable formula.",
+    "primary": "Tell us about your HR need",
+    "secondary": "Request an appointment"
+  },
+  "ServicesPage": {
+    "title": "Our services",
+    "lead": "Human resources solutions and professional services designed to support businesses with clarity, proximity and transparency.",
+    "hr_title": "Human resources outsourcing",
+    "jump_hr": "Human resources",
+    "jump_spaces": "Spaces and support"
+  },
   "NotFound": {
-    "banner_title": "Page Not Found",
     "code": "404",
-    "title": "Oops! You seem to be lost.",
-    "description": "The page you're looking for doesn't exist or may have been moved.",
-    "button": "Back to Home"
+    "title": "This page doesn’t exist.",
+    "description": "The link may be wrong, or the page has moved. Head back to the home page to find our services.",
+    "button": "Back to home"
   },
   "Contact": {
-    "title": "Contact Us",
-    "message": "Leave us a message",
+    "title": "Let’s talk about your need",
+    "lead": "Tell us about your context and we’ll get back to you to identify the most suitable formula. You can also ask to visit our spaces.",
+    "form_title": "Your request",
     "form": {
-      "name": "Your Name...",
-      "email": "Your Email...",
-      "subject": "Subject...",
-      "message": "Your Message...",
-      "submit": "Send",
-      "submitting": "Sending...",
-      "success": "Message sent successfully!",
-      "error": "An error occurred while sending the message."
+      "name": "Full name",
+      "company": "Company",
+      "optional": "optional",
+      "email": "Email address",
+      "phone": "Phone",
+      "need": "Your need",
+      "need_placeholder": "Choose a topic",
+      "message": "Your message",
+      "message_placeholder": "Role, headcount, timeline, constraints…",
+      "submit": "Send my request",
+      "submitting": "Sending…",
+      "success_title": "Request sent",
+      "success": "Thank you. We’ve received your message and will get back to you shortly.",
+      "error_title": "Couldn’t send",
+      "error": "Your message couldn’t be sent. Check your connection and try again, or email us directly.",
+      "dismiss": "Close"
     },
-    "location": "Find Us",
-    "phone": "Call Us",
-    "legal_information": "Legal Information"
+    "needs": {
+      "recruitment": "Recruitment",
+      "placement": "Placement and secondment",
+      "administration": "Personnel administration",
+      "payroll": "Payroll and social declarations",
+      "training": "Training and talent preparation",
+      "coworking": "Coworking",
+      "private_office": "Equipped private office",
+      "domiciliation": "Business domiciliation",
+      "room_rental": "Room rental",
+      "admin_facilitation": "Administrative facilitation",
+      "tax": "Tax support",
+      "visit": "Visit our spaces",
+      "application": "Job application",
+      "other": "Something else"
+    },
+    "errors": {
+      "name": "Enter your name (at least 2 characters).",
+      "name_long": "The name is too long.",
+      "company_long": "The company name is too long.",
+      "email": "Enter a valid email address, for example name@company.com.",
+      "phone": "Enter a valid phone number.",
+      "need": "Choose the topic of your request.",
+      "message": "Describe your need in at least 10 characters.",
+      "message_long": "The message must not exceed 2000 characters."
+    },
+    "details_title": "Our details",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "whatsapp": "WhatsApp",
+    "hours": "Hours",
+    "map_title": "Find us"
   }
 }

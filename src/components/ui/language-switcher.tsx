@@ -1,83 +1,60 @@
 "use client";
 
-import { useEffect, useRef, useState, useTransition } from "react";
-import { Languages } from "lucide-react";
-import { useLocale } from "next-intl";
+import { useTransition } from "react";
+import { useLocale, useTranslations } from "next-intl";
+import { motion } from "motion/react";
 
 import { usePathname, useRouter } from "@/i18n/navigation";
+import { routing } from "@/i18n/routing";
 
-const locales = [
-  { code: "en", label: "English" },
-  { code: "fr", label: "Français" },
-];
-
-export default function LanguageSwitcher() {
+export default function LanguageSwitcher({ tone = "dark" }: { tone?: "dark" | "light" }) {
   const router = useRouter();
   const locale = useLocale();
   const pathname = usePathname();
+  const t = useTranslations("Navigation");
   const [isPending, startTransition] = useTransition();
-  const [isOpen, setIsOpen] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (
-        containerRef.current &&
-        !containerRef.current.contains(event.target as Node)
-      ) {
-        setIsOpen(false);
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
-
-  const handleSelect = (nextLocale: string) => {
-    setIsOpen(false);
+  const select = (next: string) => {
+    if (next === locale) return;
     startTransition(() => {
-      router.replace(pathname, { locale: nextLocale });
+      router.replace(pathname, { locale: next });
     });
   };
 
   return (
-    <div className="relative" ref={containerRef}>
-      <button
-        type="button"
-        onClick={() => setIsOpen((prev) => !prev)}
-        disabled={isPending}
-        aria-haspopup="listbox"
-        aria-expanded={isOpen}
-        aria-label="Change language"
-        className="flex items-center justify-center rounded-md border p-4 text-white shadow-sm hover:shadow-md transition cursor-pointer disabled:opacity-50"
-      >
-        <Languages size={20} />
-      </button>
-
-      {isOpen && (
-        <ul
-          role="listbox"
-          className="absolute right-0 mt-2 min-w-32 overflow-hidden rounded-md border bg-white shadow-md z-20"
-        >
-          {locales.map((lang) => (
-            <li key={lang.code}>
-              <button
-                type="button"
-                role="option"
-                aria-selected={locale === lang.code}
-                onClick={() => handleSelect(lang.code)}
-                className={`block w-full px-4 py-3 text-left text-sm cursor-pointer transition-colors duration-200 ${
-                  locale === lang.code
-                    ? "bg-[#2598d4] text-white"
-                    : "text-black hover:bg-gray-100"
-                }`}
-              >
-                {lang.label}
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
+    <div
+      role="group"
+      aria-label={t("change_language")}
+      className={`relative flex rounded-full p-1 text-xs font-bold ${
+        tone === "dark" ? "bg-mist" : "bg-white/10"
+      } ${isPending ? "opacity-60" : ""}`}
+    >
+      {routing.locales.map((code) => {
+        const active = code === locale;
+        return (
+          <button
+            key={code}
+            type="button"
+            lang={code}
+            aria-pressed={active}
+            onClick={() => select(code)}
+            className={`relative z-10 w-10 rounded-full py-1.5 uppercase transition-colors ${
+              active
+                ? tone === "dark" ? "text-white" : "text-ink"
+                : tone === "dark" ? "text-slate hover:text-ink" : "text-white/70 hover:text-white"
+            }`}
+          >
+            {active && (
+              <motion.span
+                layoutId={`lang-pill-${tone}`}
+                className={`absolute inset-0 -z-10 rounded-full ${tone === "dark" ? "bg-ink" : "bg-white"}`}
+                transition={{ type: "spring", stiffness: 500, damping: 38 }}
+              />
+            )}
+            {code}
+          </button>
+        );
+      })}
     </div>
   );
 }
