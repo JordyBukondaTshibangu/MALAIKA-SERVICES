@@ -1,88 +1,71 @@
 @import "tailwindcss";
 
-:root {
-  --background-light: #ffffff;
-  --foreground-light: #171717;
+/* Brand tokens, taken from the Malaïka Services logo */
+@theme {
+  --color-ink: #0f1b3d;        /* logo navy: headings, dark bands */
+  --color-ink-soft: #2a3658;
+  --color-slate: #55607a;      /* body copy on light */
+  --color-sky: #2598d4;        /* logo blue */
+  --color-sky-deep: #0b6fa4;   /* accessible blue for text/buttons on white */
+  --color-leaf: #6bb238;       /* logo green */
+  --color-leaf-deep: #3f7f17;  /* accessible green for text on white */
+  --color-mist: #eef4f8;       /* cool section background */
+  --color-line: #d9e3ec;
+
+  --font-display: "Lexend Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Figtree Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-[data-theme="dark"] {
-  --background: #0a0a0a;
-  --foreground: white;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 
-html.dark {
-  --background-dark: #0a0a0a;
-  --foreground-dark: white;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
 
 body {
-  background-color: white;
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
-  width: 100%;
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-.is-style-underlined-heading {
-  position: relative;
-  margin-bottom: 0.75em !important;
-  padding-bottom: 0.75em;
-}
-.is-style-underlined-heading::before {
-  display: inline-block;
-  position: absolute;
-  bottom: 0;
-  width: 1.5em;
-  height: 3px;
-  content: "";
-  background-color: white;
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  color: var(--color-ink);
+  letter-spacing: -0.015em;
+  text-wrap: balance;
 }
 
-.is-style-underlined-heading-blue {
-  position: relative;
-  margin-bottom: 0.75em !important;
-  padding-bottom: 0.75em;
+p {
+  text-wrap: pretty;
 }
 
-.is-style-underlined-heading-blue::before {
-  display: inline-block;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 1.5em;
-  height: 3px;
-  content: "";
-  background-color: #047db2;
+::selection {
+  background: var(--color-leaf);
+  color: #fff;
 }
 
-.is-style-underlined-heading-nav {
-  position: relative;
-  margin-bottom: 0.75em !important;
-  padding-bottom: 0.75em;
+:focus-visible {
+  outline: 3px solid var(--color-sky);
+  outline-offset: 3px;
+  border-radius: 6px;
 }
-.is-style-underlined-heading-nav::before {
-  display: inline-block;
-  position: absolute;
-  bottom: 0;
-  left: 0%;
-  width: 1.5em;
-  height: 3px;
-  content: "";
-  background-color: white;
+
+/* Leaflet sits under the sticky header */
+.leaflet-container {
+  z-index: 0;
+  font-family: var(--font-sans);
 }

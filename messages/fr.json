@@ -1,218 +1,345 @@
 {
   "Metadata": {
-    "title": "Malaika Services | Experts en Fiscalité, Comptabilité et Paie",
-    "description": "Malaika Services propose des services professionnels de fiscalité, comptabilité, paie, audit et externalisation adaptés aux entreprises de toutes tailles."
+    "title": "Malaïka Services | Recrutement, placement et externalisation RH à Kinshasa",
+    "description": "Malaïka Services accompagne les entreprises en RDC : recrutement, placement et mise à disposition de personnel, gestion administrative, paie, ainsi que coworking, bureaux privés et domiciliation.",
+    "about_title": "À propos",
+    "services_title": "Nos services",
+    "contact_title": "Contact"
+  },
+  "Common": {
+    "tagline": "Plus qu’une stratégie, une solution.",
+    "skip_to_content": "Aller au contenu",
+    "learn_more": "En savoir plus",
+    "in_development": "En développement"
   },
   "Navigation": {
     "home": "Accueil",
     "services": "Services",
-    "about": "A Propos",
+    "about": "À propos",
     "contact": "Contact",
-    "button": "Consultez-nous"
+    "button": "Présentez votre besoin",
+    "open_menu": "Ouvrir le menu",
+    "close_menu": "Fermer le menu",
+    "change_language": "Changer de langue"
   },
   "Footer": {
-    "title": "Malaika Services",
-    "description": "Malaika Services est une entreprise dédiée à fournir des solutions comptables, fiscales et administratives de qualité aux particuliers et aux entreprises.",
-    "contact_us": "Contactez-nous",
-    "send_us_a_message": "Laissez-nous un message",
-    "address": "Notre adresse",
-    "quick_links": {
-      "title": "Liens Rapides",
-      "about": "A Propos",
-      "services": "Services",
-      "projects": "Projets",
-      "price": "Tarifs",
-      "careers": "Contact"
-    },
-    "legalLinks": {
-      "title": "Liens legaux",
-      "TandCs": "Termes et Conditions",
-      "privacy": "Politique de Confidentialite",
-      "support": "Support",
-      "refund": "Politique de Remboursement",
-      "disclaimer": "Avertissements",
-      "faq": "FAQ"
-    },
-    "newsletter": {
-      "title": "Newsletter",
-      "description": "Restez informé de nos dernières actualités et offres. Abonnez-vous dès maintenant à notre newsletter !",
-      "button": "S'abonner"
-    },
-    "copyright": "Malaika Services © 2023. Tous droits r&eacute;serv&eacute;s."
+    "description": "Recrutement, placement de personnel et externalisation des ressources humaines pour les entreprises en République Démocratique du Congo.",
+    "navigation": "Navigation",
+    "hr_services": "Ressources humaines",
+    "spaces": "Espaces et accompagnement",
+    "contact": "Nous joindre",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "address": "Adresse",
+    "whatsapp": "WhatsApp",
+    "copyright": "© {year} Malaïka Services SARL. Tous droits réservés."
   },
   "HomePage": {
     "hero": {
-      "title": "Malaika Services -",
-      "title_description_1": " Plus qu'une strategie,",
-      "title_description_2": "une Solution",
-      "subtitle": "Des espaces, des talents, des opportunites sous le meme toit.",
-      "button_1": "Commencer",
-      "button_2": "En Savoir Plus"
-    },
-    "welcome_to_malaika": {
-      "title": "Bienvenue sur Malaika Services",
-      "subtitle": "Votre partenaire stratégique pour la croissance",
-      "description": "Chez Malaika Services, nous proposons une gamme complète de services professionnels destinés à soutenir les entreprises dans leur développement, leur conformité fiscale, leur gestion administrative et leur optimisation financière.",
-      "list_1": [
-        "Expertise comptable adaptée à chaque secteur",
-        "Conseils fiscaux personnalisés",
-        "Support administratif et gestion de la paie"
-      ],
-      "list_2": [
-        "Solutions flexibles et innovantes",
-        "Accompagnement sur mesure",
-        "Professionnels expérimentés à votre écoute"
-      ],
-      "metrics": {
-        "metric_1": "Clients satisfaits",
-        "metric_2": "Annees d'experience",
-        "metric_3": "Projets realises",
-        "metric_4": "Professionnels qualifies"
+      "title": "Simplifiez vos ressources humaines, concentrez-vous sur votre activité.",
+      "description": "Malaïka Services met son expertise en recrutement, ressources humaines et placement de personnel au service des entreprises, afin de leur permettre de constituer, gérer et développer des équipes performantes, en toute confiance.",
+      "primary_cta": "Présentez-nous votre besoin RH",
+      "secondary_cta": "Découvrir nos espaces professionnels",
+      "art_label": "Illustration : un réseau reliant entreprises et talents",
+      "chips": {
+        "recruitment": "Recrutement",
+        "payroll": "Paie",
+        "contracts": "Contrats",
+        "placement": "Placement"
       }
     },
-    "services": {
-      "title": "Nos Services",
-      "subtitle": "Quels services offrons-nous",
-      "description": "Nous accompagnons les entreprises et les particuliers dans leurs besoins fiscaux, comptables, salariaux et administratifs avec des solutions pratiques et efficaces.",
-      "button": "Voir Plus de Services"
+    "intro": {
+      "title": "Recruter, contracter, payer, déclarer : nous prenons le relais.",
+      "description": "Recruter, établir les contrats, gérer la paie et suivre les obligations sociales exigent du temps, de la méthode et des compétences adaptées. Malaïka Services propose aux entreprises un accompagnement modulable pour externaliser tout ou partie de ces fonctions.",
+      "description_2": "De l’analyse du besoin au suivi des collaborateurs, nous privilégions une relation accessible, des procédures claires et une information transparente, afin que chaque client puisse avancer avec une meilleure visibilité.",
+      "link": "Qui sommes-nous ?",
+      "image_alt": "Une équipe en réunion de travail"
     },
-    "case_studies": {
-      "title": "Nos Projets",
-      "subtitle": "Observons nos réalisations",
-      "description": "Découvrez comment nous avons aidé des entreprises à améliorer leur gestion financière, à optimiser leurs ressources humaines et à respecter les obligations légales.",
-      "case_1": {
-        "title": "Optimisation fiscale pour une PME locale",
-        "description": "Mise en place d'une stratégie fiscale adaptée ayant permis de réduire de 15% les charges annuelles de l'entreprise.",
-        "button": "Lire Plus"
-      },
-      "case_2": {
-        "title": "Gestion de la paie externalisée pour une startup",
-        "description": "Nous avons aidé une jeune entreprise à automatiser la gestion de ses salaires et déclarations sociales en toute conformité.",
-        "button": "Lire Plus"
-      },
-      "case_3": {
-        "title": "Audit comptable pour une ONG internationale",
-        "description": "Un audit rigoureux ayant renforcé la transparence financière et la crédibilité auprès des bailleurs de fonds.",
-        "button": "Lire Plus"
-      }
+    "hr": {
+      "title": "Une solution RH adaptée à votre organisation",
+      "description": "Recrutement ponctuel, placement ou mise à disposition de collaborateurs, externalisation de certaines fonctions administratives et sociales : nous analysons votre besoin et proposons un périmètre d’intervention adapté.",
+      "link": "Voir le détail de nos services RH"
     },
-    "clients_feedback": {
-      "title": "Commentaires des clients",
-      "subtitle": "Les Avis de nos Clients",
-      "description": "Nos clients témoignent de leur satisfaction à travailler avec Malaika Services et des résultats obtenus grâce à notre expertise.",
-      "client_1": {
-        "name": "Jordy Tshibangu",
-        "position": "Software Engineer",
-        "feedback": "Malaika nous a permis de simplifier la gestion de notre comptabilité tout en assurant une conformité parfaite avec les exigences locales."
-      },
-      "client_2": {
-        "name": "David Kasongo",
-        "position": "Entrepreneur",
-        "feedback": "Service fiable, réactif et à l'écoute. Grâce à eux, je peux me concentrer sur mon activité sans me soucier des aspects fiscaux."
-      }
-    },
-    "get_in_touch": {
-      "title": "Entrez en Contact",
-      "subtitle": "Vous hésitez encore sur nos fonctionnalités ?",
-      "subtitle_description": "Demandez une consultation.",
-      "description": "Vous avez des questions ou souhaitez en savoir plus sur nos services ? Contactez-nous dès aujourd’hui pour discuter de vos besoins et obtenir un accompagnement personnalisé.",
-      "button": "Demander une consultation"
+    "spaces": {
+      "title": "Des espaces et un accompagnement pour vous installer",
+      "description": "Coworking, bureaux équipés, domiciliation, salle de réunion et appui administratif : des services complémentaires pour soutenir votre organisation et votre développement.",
+      "link": "Découvrir nos espaces"
     }
   },
-  "Services": {
-    "title": "Nos Services",
-    "services": {
-      "service_1": {
-        "title": "Taxes Personnelles",
-        "description": "Conseils personnalisés et accompagnement dans la déclaration, l'optimisation et le paiement de vos impôts personnels.",
-        "button": "Lire Plus"
+  "HrServices": {
+    "intro": "Toutes les entreprises ont besoin de collaborateurs fiables et d’une administration du personnel bien suivie. Toutes ne disposent cependant pas du temps, des outils ou d’un service RH structuré pour prendre en charge chaque étape. Malaïka Services analyse le besoin et propose un périmètre d’intervention adapté.",
+    "scope_note": "Les responsabilités, livrables, délais et modalités contractuelles sont précisés avec le client avant le démarrage de la mission.",
+    "recruitment": {
+      "title": "Recrutement",
+      "summary": "Nous clarifions le poste, recherchons les profils, réalisons une présélection structurée et vous présentons les candidatures qui correspondent à vos attentes.",
+      "body_1": "Lorsque vous devez pourvoir un poste sans disposer du temps, des ressources internes ou de la visibilité nécessaires, nous vous accompagnons à chaque étape du recrutement. Nous clarifions le poste et les critères de sélection, recherchons les profils, réalisons une présélection structurée et vous présentons les candidatures correspondant à vos attentes.",
+      "body_2": "Dans le cadre d’un recrutement ponctuel, le candidat retenu est directement engagé par votre entreprise. Notre intervention vous permet de bénéficier d’un processus mieux organisé, de candidatures plus ciblées et de davantage de temps pour vous concentrer sur la décision finale.",
+      "cta": "Confiez-nous votre prochain recrutement"
+    },
+    "placement": {
+      "title": "Placement et mise à disposition",
+      "summary": "Pour renforcer vos équipes ou externaliser la gestion de certains collaborateurs, avec un interlocuteur identifié pour le suivi administratif.",
+      "body_1": "Pour renforcer vos équipes ou externaliser la gestion de certains collaborateurs, nous proposons des solutions de placement et de mise à disposition encadrées selon vos besoins. Après avoir défini avec vous les modalités de la mission, nous recherchons ou mobilisons les profils, organisons la sélection et assurons la gestion des collaborateurs concernés dans le périmètre convenu.",
+      "body_2": "Vous disposez ainsi d’une solution adaptée à votre organisation et d’un interlocuteur identifié pour le suivi administratif du personnel placé ou mis à disposition.",
+      "cta": "Échangeons sur la formule adaptée à vos effectifs"
+    },
+    "administration": {
+      "title": "Gestion administrative du personnel",
+      "summary": "Préparation et suivi des contrats, tenue des dossiers du personnel et démarches administratives comprises dans la mission.",
+      "body_1": "La gestion des contrats, des dossiers du personnel et des obligations administratives peut mobiliser fortement vos équipes. Nous vous accompagnons dans la préparation et le suivi des contrats, la tenue des informations nécessaires ainsi que les démarches administratives comprises dans le périmètre de notre mission.",
+      "body_2": "Notre intervention contribue à améliorer le suivi des dossiers, à clarifier les responsabilités et à limiter les risques d’oubli ou d’erreur. Lorsque la situation exige une expertise particulière, nous faisons appel à des consultants qualifiés.",
+      "cta": "Faisons le point sur vos besoins administratifs"
+    },
+    "payroll": {
+      "title": "Paie et déclarations sociales",
+      "summary": "Préparation des éléments de paie, suivi des calculs et accompagnement pour les déclarations et cotisations sociales.",
+      "body_1": "Le calcul des rémunérations, des retenues et des cotisations sociales exige précision, régularité et maîtrise des obligations applicables. Selon la mission convenue, nous préparons les éléments de paie, suivons les calculs et vous accompagnons dans la préparation des déclarations et des cotisations sociales.",
+      "body_2": "Les informations requises, les responsabilités, les validations et les justificatifs attendus sont définis avec vous dès le début de la mission. Cette organisation favorise une gestion plus claire de la paie et un meilleur suivi des échéances sociales, sous réserve de la transmission complète et exacte des données nécessaires.",
+      "cta": "Échangeons sur l’organisation de votre paie"
+    },
+    "training": {
+      "title": "Formation et préparation des talents",
+      "summary": "Des parcours pour préparer les jeunes diplômés aux réalités du marché de l’emploi. Programmes en cours de développement.",
+      "body_1": "Nous sommes convaincus que chaque talent mérite la possibilité de révéler son potentiel et d’aborder le monde professionnel avec confiance. C’est pourquoi nous souhaitons accompagner les candidats, en particulier les jeunes diplômés, dans l’acquisition des compétences pratiques, des attitudes professionnelles et des repères nécessaires pour mieux répondre aux réalités du marché de l’emploi.",
+      "body_2": "Notre ambition est de développer progressivement des parcours de formation ancrés dans les besoins concrets des entreprises, tout en constituant un vivier de profils préparés, motivés et capables de s’intégrer durablement dans leur environnement de travail. Ces programmes étant actuellement en phase de développement, leur contenu, leurs modalités et leur date de lancement seront communiqués dès leur mise en œuvre officielle.",
+      "cta": "Connaître les dispositifs disponibles"
+    }
+  },
+  "Process": {
+    "title": "Votre parcours en cinq étapes",
+    "description": "Une démarche claire, de la première conversation au suivi de la mission.",
+    "steps": {
+      "1": {
+        "title": "Compréhension du besoin",
+        "description": "Nous échangeons sur le poste, l’effectif concerné, les compétences recherchées, le contexte, les contraintes et les responsabilités attendues."
       },
-      "service_2": {
-        "title": "Taxes Professionnelles",
-        "description": "Gestion complète de la fiscalité professionnelle, de la planification à la conformité avec la législation en vigueur.",
-        "button": "Lire Plus"
+      "2": {
+        "title": "Définition de la solution",
+        "description": "Nous proposons un périmètre d’intervention : recrutement ponctuel, placement ou mise à disposition, gestion administrative, paie ou combinaison de plusieurs services."
       },
-      "service_3": {
-        "title": "Comptabilite",
-        "description": "Tenue comptable, bilans, audits internes – nous assurons une gestion rigoureuse de votre comptabilité.",
-        "button": "Lire Plus"
+      "3": {
+        "title": "Recherche ou mobilisation des profils",
+        "description": "Selon la mission, nous recherchons des candidatures, activons les profils disponibles ou préparons les éléments nécessaires à l’externalisation administrative."
       },
-      "service_4": {
-        "title": "Payroll & Salaires",
-        "description": "Solutions de gestion des salaires, bulletins de paie, déclarations sociales et RH adaptées à vos besoins.",
-        "button": "Lire Plus"
+      "4": {
+        "title": "Sélection et contractualisation",
+        "description": "Les profils sont évalués selon les critères convenus. Le mode d’engagement, les responsabilités et les conditions applicables sont ensuite formalisés par les parties concernées."
       },
-      "service_5": {
-        "title": "Outsourcing",
-        "description": "Externalisez vos fonctions non stratégiques pour vous concentrer sur votre cœur de métier en toute sérénité.",
-        "button": "Lire Plus"
-      },
-      "service_6": {
-        "title": "Audit & Assurance",
-        "description": "Réalisation d’audits financiers et opérationnels pour garantir la transparence, la conformité et la performance.",
-        "button": "Lire Plus"
+      "5": {
+        "title": "Placement, gestion ou suivi",
+        "description": "Le candidat est engagé par le client ou géré selon la formule de placement ou de mise à disposition retenue. Malaïka Services assure le suivi prévu dans la mission."
       }
     },
-    "why_malaika": {
-      "title": "Pourquoi Malaika Services?",
-      "why_1": "Clients Satisfied",
-      "why_2": "Taux de recommandation",
-      "why_3": "Annee d'experiences",
-      "why_4": "Meilleurs offres"
+    "step_label": "Étape {n} sur 5",
+    "cta": "Commencer par l’étape 1"
+  },
+  "Spaces": {
+    "title": "Espaces professionnels et accompagnement",
+    "description": "Des services complémentaires pour vous installer, vous réunir et avancer dans vos démarches.",
+    "availability": "Formules, tarifs et disponibilités sur demande.",
+    "coworking": {
+      "title": "Coworking",
+      "description": "Travaillez dans un espace professionnel partagé, adapté aux entrepreneurs, consultants et petites équipes. Selon la formule retenue, l’accès peut comprendre un poste de travail, une connexion internet, un espace de pause et certains services administratifs.",
+      "cta": "Vérifier les places disponibles"
     },
-    "tools": {
-      "title": "Nos Outils",
-      "tool_1": {
-        "title": "Taxes Personnelles",
-        "description": "Accédez à un outil dédié à la gestion et à la déclaration simplifiée de vos impôts personnels en ligne.",
-        "button": "Essayer"
-      },
-      "tool_2": {
-        "title": "Taxes Professionnelles",
-        "description": "Plateforme intuitive pour suivre vos obligations fiscales professionnelles et automatiser les déclarations.",
-        "button": "Essayer"
-      }
+    "private_office": {
+      "title": "Bureaux privés équipés",
+      "description": "Des bureaux privés équipés pour disposer d’un cadre de travail professionnel sans supporter immédiatement l’installation complète d’un bureau permanent.",
+      "cta": "Demander les conditions"
+    },
+    "domiciliation": {
+      "title": "Domiciliation d’entreprise",
+      "description": "Une adresse administrative mise à la disposition des entreprises selon des conditions définies par contrat. La prestation peut inclure la réception et le signalement du courrier, selon la formule convenue.",
+      "cta": "Demander les conditions"
+    },
+    "room_rental": {
+      "title": "Location de salle",
+      "description": "Une salle équipée pour vos réunions, formations ou autres rencontres professionnelles.",
+      "cta": "Réserver une visite"
+    },
+    "admin_facilitation": {
+      "title": "Facilitation administrative",
+      "description": "Nous aidons les entreprises à identifier les démarches, les interlocuteurs et les documents nécessaires pour certains dossiers administratifs, fiscaux ou liés à la création d’entreprise. Cette intervention facilite la préparation et le suivi des procédures officielles ; elle ne remplace ni l’administration compétente ni les autorisations exigées.",
+      "cta": "Présenter votre dossier"
+    },
+    "tax": {
+      "title": "Accompagnement fiscal et orientation spécialisée",
+      "description": "Notre expérience en comptabilité et en fiscalité nous permet d’apporter un accompagnement dans le périmètre convenu. Lorsque la question exige une expertise réglementée ou spécialisée, nous orientons le dossier ou intervenons avec des consultants qualifiés. Malaïka Services n’est ni un cabinet d’avocats ni une autorité fiscale.",
+      "cta": "Poser votre question"
+    },
+    "visit_title": "Venez voir nos espaces",
+    "visit_description": "Prenez rendez-vous pour une visite ou demandez les conditions applicables au coworking, aux bureaux privés, à la location de salle et à la domiciliation.",
+    "visit_cta": "Demander un rendez-vous"
+  },
+  "Audiences": {
+    "title": "Ceux que nous accompagnons",
+    "description": "Des grandes organisations aux jeunes diplômés, une même exigence de clarté.",
+    "large": {
+      "title": "Grandes entreprises",
+      "description": "Nous accompagnons les organisations qui souhaitent externaliser le recrutement, le placement, la mise à disposition ou le suivi administratif d’une partie de leurs effectifs, selon un périmètre clairement défini."
+    },
+    "sme": {
+      "title": "Petites et moyennes entreprises",
+      "description": "Une solution modulable pour les entreprises qui emploient quelques collaborateurs sans disposer d’un service RH structuré. L’intervention peut porter sur un recrutement précis, la paie, les contrats ou plusieurs fonctions administratives."
+    },
+    "banks": {
+      "title": "Banques et grandes surfaces",
+      "description": "Nous étudions les besoins récurrents ou ponctuels portant notamment sur des profils de caisse, d’accueil et de soutien administratif."
+    },
+    "telecom": {
+      "title": "Télécommunications",
+      "description": "Nous analysons les besoins de recrutement, de placement et de support administratif des entreprises de télécommunications, selon les fonctions, les volumes et les délais communiqués."
+    },
+    "graduates": {
+      "title": "Jeunes diplômés et candidats",
+      "description": "Nous facilitons la rencontre entre les entreprises et des candidats préparés aux réalités professionnelles. Vous pouvez soumettre votre candidature pour les opportunités disponibles.",
+      "cta": "Envoyer ma candidature"
     }
   },
   "About": {
-    "title": "A Propos de Nous",
-    "description_1": "Malaika Services est née de la volonté de rendre accessibles des services professionnels de qualité à toutes les entreprises, quelle que soit leur taille.",
-    "description_2": "Notre équipe est composée d’experts passionnés, prêts à vous accompagner avec rigueur et transparence dans tous vos projets de développement.",
-    "our_team": {
-      "title": "Notre Equipe"
+    "title": "Qui sommes-nous ?",
+    "lead": "Un partenaire spécialisé dans le recrutement, le placement de personnel et l’externalisation des ressources humaines.",
+    "description_1": "Nous accompagnons les entreprises dans la constitution et la gestion d’équipes adaptées à leurs besoins, avec rigueur, proximité et transparence.",
+    "description_2": "Notre expertise couvre également la paie, l’administration du personnel et l’accompagnement administratif et fiscal. À travers nos services complémentaires de coworking, de domiciliation et de mise à disposition d’espaces professionnels, nous proposons aux entreprises un accompagnement structuré pour soutenir leur organisation et leur développement.",
+    "image_alt": "Immeuble de bureaux",
+    "mission": {
+      "title": "Notre mission",
+      "description": "Aider les entreprises à recruter, administrer et accompagner leurs collaborateurs avec plus de simplicité, de conformité et de transparence, tout en leur permettant de rester concentrées sur leur cœur de métier."
     },
-    "why_choose_us": {
-      "title": "Pourquoi choisir Malaika Services?",
-      "reason_1": "Accompagnement personnalisé à chaque étape",
-      "reason_2": "Transparence et éthique professionnelle",
-      "reason_3": "Solutions digitales simples et efficaces",
-      "reason_4": "Équipe expérimentée et pluridisciplinaire",
-      "reason_5": "Tarifs compétitifs et adaptés à vos besoins",
-      "reason_6": "Satisfaction client au cœur de nos priorités"
+    "vision": {
+      "title": "Notre vision",
+      "description": "Devenir, dans les cinq à dix prochaines années, une référence de l’externalisation des ressources humaines en République Démocratique du Congo, puis développer progressivement des passerelles accessibles entre la formation des jeunes talents et les besoins des entreprises."
+    },
+    "values": {
+      "title": "Nos valeurs",
+      "transparency": {
+        "title": "Transparence",
+        "description": "Nous expliquons la prestation, les responsabilités et les modalités contractuelles de façon compréhensible. Lorsque la formule le permet, salaires, charges et frais de gestion sont présentés séparément, avec les justificatifs disponibles."
+      },
+      "listening": {
+        "title": "Écoute",
+        "description": "Chaque accompagnement commence par la compréhension du besoin, du contexte et des contraintes du client. Cette écoute guide le choix d’une solution adaptée plutôt qu’une réponse standardisée."
+      },
+      "proximity": {
+        "title": "Proximité",
+        "description": "Nous restons accessibles aux entreprises comme aux candidats pendant les principales étapes de la mission. La qualité de la relation contribue à prévenir les incompréhensions et à faciliter le suivi."
+      },
+      "rigor": {
+        "title": "Rigueur",
+        "description": "Nous nous appuyons sur des étapes, des outils et des canevas internes pour organiser le recrutement et le suivi administratif. Les interventions spécialisées sont orientées vers des consultants qualifiés lorsque cela est nécessaire."
+      },
+      "adaptability": {
+        "title": "Adaptabilité",
+        "description": "Recrutement ponctuel, placement, mise à disposition ou externalisation administrative : la formule est définie selon la situation de l’entreprise et le périmètre convenu."
+      }
+    },
+    "team": {
+      "title": "Équipe dirigeante",
+      "education": "Formation",
+      "experience": "Expérience",
+      "expertise": "Expertises principales"
     }
   },
+  "WhyUs": {
+    "title": "Pourquoi choisir Malaïka Services ?",
+    "transparent": {
+      "title": "Une information transparente",
+      "description": "La prestation, les responsabilités et les modalités de gestion sont expliquées clairement. Les éléments financiers sont distingués selon la formule applicable et les justificatifs disponibles sont communiqués dans le cadre convenu."
+    },
+    "tailored": {
+      "title": "Des solutions adaptées au besoin",
+      "description": "L’accompagnement peut porter sur une mission ponctuelle ou sur l’externalisation de plusieurs fonctions. Le périmètre est défini en fonction de l’organisation du client."
+    },
+    "close": {
+      "title": "Un interlocuteur de proximité",
+      "description": "Nous privilégions l’écoute, l’accessibilité et le suivi des échanges avec les clients comme avec les collaborateurs concernés."
+    },
+    "skills": {
+      "title": "Des compétences complémentaires",
+      "description": "L’expérience en paie, comptabilité, fiscalité et administration complète l’intervention RH. Les sujets spécialisés peuvent être confiés ou orientés vers des consultants qualifiés."
+    },
+    "procedures": {
+      "title": "Des procédures compréhensibles",
+      "description": "Le recrutement et le suivi administratif s’appuient sur des étapes, des outils et des canevas internes. Les modalités précises sont adaptées et communiquées pour chaque mission."
+    },
+    "human": {
+      "title": "Une approche humaine",
+      "description": "Au-delà des dossiers et des calculs, chaque mission concerne des personnes et une organisation. Nous veillons à clarifier les attentes et à maintenir un dialogue utile entre les parties."
+    }
+  },
+  "Cta": {
+    "title": "Parlons de votre besoin",
+    "description": "Vous recherchez un collaborateur, souhaitez externaliser une partie de votre gestion RH ou avez besoin de mieux organiser le suivi administratif de votre personnel ? Présentez-nous votre contexte afin d’identifier la formule la plus adaptée.",
+    "primary": "Présentez-nous votre besoin RH",
+    "secondary": "Demander un rendez-vous"
+  },
+  "ServicesPage": {
+    "title": "Nos services",
+    "lead": "Des solutions de ressources humaines et des services professionnels conçus pour accompagner les entreprises avec clarté, proximité et transparence.",
+    "hr_title": "Externalisation des ressources humaines",
+    "jump_hr": "Ressources humaines",
+    "jump_spaces": "Espaces et accompagnement"
+  },
   "NotFound": {
-    "banner_title": "Page Introuvable",
     "code": "404",
-    "title": "Oups ! Vous semblez être perdu.",
-    "description": "La page que vous recherchez n'existe pas ou a peut-être été déplacée.",
-    "button": "Retour à l'accueil"
+    "title": "Cette page n’existe pas.",
+    "description": "Le lien est peut-être incorrect, ou la page a été déplacée. Revenez à l’accueil pour retrouver nos services.",
+    "button": "Retour à l’accueil"
   },
   "Contact": {
-    "title": "Contactez-nous",
-    "message": "Laissez-nous un message",
+    "title": "Parlons de votre besoin",
+    "lead": "Présentez-nous votre contexte : nous revenons vers vous pour identifier la formule la plus adaptée. Vous pouvez aussi demander une visite de nos espaces.",
+    "form_title": "Votre demande",
     "form": {
-      "name": "Votre Nom...",
-      "email": "Votre Email...",
-      "subject": "Sujet...",
-      "message": "Votre Message...",
-      "submit": "Envoyer",
-      "submitting": "Envoi en cours...",
-      "success": "Message envoyé avec successe!",
-      "error": "Une erreur s'est produite lors de l'envoi du message."
+      "name": "Nom et prénom",
+      "company": "Entreprise",
+      "optional": "facultatif",
+      "email": "Adresse e-mail",
+      "phone": "Téléphone",
+      "need": "Votre besoin",
+      "need_placeholder": "Choisissez un sujet",
+      "message": "Votre message",
+      "message_placeholder": "Poste, effectif concerné, délais, contraintes…",
+      "submit": "Envoyer ma demande",
+      "submitting": "Envoi en cours…",
+      "success_title": "Demande envoyée",
+      "success": "Merci. Nous avons bien reçu votre message et revenons vers vous rapidement.",
+      "error_title": "Envoi impossible",
+      "error": "Votre message n’a pas pu être envoyé. Vérifiez votre connexion et réessayez, ou écrivez-nous directement par e-mail.",
+      "dismiss": "Fermer"
     },
-    "location": "Retrouvez-nous",
-    "phone": "Contactez-nous",
-    "legal_information": "Informations legaless"
+    "needs": {
+      "recruitment": "Recrutement",
+      "placement": "Placement et mise à disposition",
+      "administration": "Gestion administrative du personnel",
+      "payroll": "Paie et déclarations sociales",
+      "training": "Formation et préparation des talents",
+      "coworking": "Coworking",
+      "private_office": "Bureau privé équipé",
+      "domiciliation": "Domiciliation d’entreprise",
+      "room_rental": "Location de salle",
+      "admin_facilitation": "Facilitation administrative",
+      "tax": "Accompagnement fiscal",
+      "visit": "Visite de nos espaces",
+      "application": "Candidature spontanée",
+      "other": "Autre demande"
+    },
+    "errors": {
+      "name": "Indiquez votre nom (2 caractères minimum).",
+      "name_long": "Le nom est trop long.",
+      "company_long": "Le nom de l’entreprise est trop long.",
+      "email": "Indiquez une adresse e-mail valide, par exemple nom@entreprise.com.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "need": "Choisissez le sujet de votre demande.",
+      "message": "Décrivez votre besoin en 10 caractères minimum.",
+      "message_long": "Le message ne doit pas dépasser 2000 caractères."
+    },
+    "details_title": "Nos coordonnées",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "address": "Adresse",
+    "whatsapp": "WhatsApp",
+    "hours": "Horaires",
+    "map_title": "Nous trouver"
   }
 }

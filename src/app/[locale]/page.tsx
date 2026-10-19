@@ -1,19 +1,26 @@
-import MSHero from "@components/molecules/ms-hero";
-import WelcomeToMs from "@components/molecules/ms-welcome";
-import MsGetInTouch from "@components/molecules/ms-get-in-touch";
-import MsCaseStudies from "@components/molecules/ms-case-studies";
-import MsServices from "@components/molecules/ms-services-offered";
-import MsClientsFeedback from "@components/molecules/ms-clients-feedback";
+import { setRequestLocale } from "next-intl/server";
 
-export default function Home() {
+import Hero from "@molecules/ms-hero";
+import Intro from "@molecules/ms-intro";
+import { HrServicesSummary } from "@molecules/ms-hr-services";
+import Process from "@molecules/ms-process";
+import Spaces from "@molecules/ms-spaces";
+import Audiences from "@molecules/ms-audiences";
+import CtaBanner from "@molecules/ms-cta-banner";
+
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   return (
-    <main className="min-w-screen w-full bg-white flex flex-col gap-10 lg:gap-32 min-h-screen">
-      <MSHero />
-      <WelcomeToMs />
-      <MsServices />
-      <MsCaseStudies />
-      <MsClientsFeedback />
-      <MsGetInTouch />
+    <main>
+      <Hero />
+      <HrServicesSummary />
+      <Intro />
+      <Process />
+      <Spaces />
+      <Audiences />
+      <CtaBanner />
     </main>
   );
 }

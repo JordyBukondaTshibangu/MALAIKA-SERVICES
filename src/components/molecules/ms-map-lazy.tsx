@@ -1,0 +1,13 @@
+"use client";
+
+import dynamic from "next/dynamic";
+
+// Leaflet needs `window`, so the map only renders in the browser.
+const MsMap = dynamic(() => import("@molecules/ms-map"), {
+  ssr: false,
+  loading: () => <div className="h-full w-full animate-pulse bg-mist" />,
+});
+
+export default function MapLazy() {
+  return <MsMap />;
+}
